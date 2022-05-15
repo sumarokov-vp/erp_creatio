@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "84f0c847-e97c-4bd9-baa2-db767c0e4e8b",
+    "Name": "ErpSchema5563a8a9Detail",
+    "ModifiedOnUtc": "\/Date(1652618417000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Fund register"
+  }
+}

@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Edit page: &quot;ERP salary&quot;" />
+			<Item Name="LocalizableStrings.ErpSchemab80ca827Detailddf6fbcbDetailCaptionOnPage.Value" Value="Базовый объект" />
 		</Items>
 	</Group>
 </Resources>

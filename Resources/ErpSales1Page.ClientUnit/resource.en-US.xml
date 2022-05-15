@@ -3,6 +3,10 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Edit page: &quot;ERP sales&quot;" />
+			<Item Name="LocalizableStrings.ErpSchema178b85a5Detaila8a5d5b4DetailCaptionOnPage.Value" Value="Payments" />
+			<Item Name="LocalizableStrings.ErpSchema40d15f15Detailaeba3c04DetailCaptionOnPage.Value" Value="Product in erp sale" />
+			<Item Name="LocalizableStrings.ErpSchema458cc01cDetail9f6c1aefDetailCaptionOnPage.Value" Value="Erp sale executor" />
+			<Item Name="LocalizableStrings.Tabf7ea2e81TabLabelTabCaption.Value" Value="Main" />
 		</Items>
 	</Group>
 </Resources>

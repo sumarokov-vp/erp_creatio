@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Edit page: &quot;Fund register&quot;" />
+			<Item Name="LocalizableStrings.Tabce40e60cTabLabelTabCaption.Value" Value="Links" />
 		</Items>
 	</Group>
 </Resources>

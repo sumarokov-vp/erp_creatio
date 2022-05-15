@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "f3ea35ae-24e5-430d-adc3-ed75c9f21689",
+    "Name": "ErpSchema178b85a5Detail",
+    "ModifiedOnUtc": "\/Date(1652611288000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "ERP money"
+  }
+}

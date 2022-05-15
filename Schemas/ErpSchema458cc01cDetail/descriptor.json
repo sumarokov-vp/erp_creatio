@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "2d05c132-2f8d-4ca7-84aa-8f913b89bb2e",
+    "Name": "ErpSchema458cc01cDetail",
+    "ModifiedOnUtc": "\/Date(1652611298000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Erp sale executor"
+  }
+}

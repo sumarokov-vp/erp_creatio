@@ -24,7 +24,6 @@
   "A4": "91763ee4-9512-4b55-8805-b73454636446",
   "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
   "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
-  "E2": 1,
   "E5": false
 }
 + MetaData.Schema.D2 {
@@ -36,7 +35,59 @@
   "S2": "c0f04627-4620-4bc0-84e5-9419dc8516b1",
   "E5": false
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","84186cc8-4bcd-4c80-86d8-24d9c4b8944c","7b02ce80-edbd-4e88-bc56-7f514449ba11"]
++ MetaData.Schema.D2 {
+  "UId": "aa7ebe8a-5c61-49e9-94ae-3bead4bb4505",
+  "A2": "ErpDate",
+  "A3": "91763ee4-9512-4b55-8805-b73454636446",
+  "A4": "91763ee4-9512-4b55-8805-b73454636446",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "603d4960-a1a2-45e9-b232-206a54421b01"
+}
++ MetaData.Schema.D2 {
+  "UId": "ee5f9ea9-36fc-4411-bdbf-4bf1f15d3b00",
+  "A2": "ErpAmount",
+  "A3": "91763ee4-9512-4b55-8805-b73454636446",
+  "A4": "91763ee4-9512-4b55-8805-b73454636446",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
++ MetaData.Schema.D2 {
+  "UId": "a25d57cd-4cf5-4a70-b799-ae54eac1cd4e",
+  "A2": "ErpCurrency",
+  "A3": "91763ee4-9512-4b55-8805-b73454636446",
+  "A4": "91763ee4-9512-4b55-8805-b73454636446",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "2d36aca6-5b8c-4122-9648-baf3b7f8256d",
+  "E6": true,
+  "E17": "ErpCurrencyId",
+  "E18": "ErpCurrencyName"
+}
++ MetaData.Schema.D2 {
+  "UId": "6ca5c6ab-25ba-4a24-92ea-18a421e01ac1",
+  "A2": "ErpAsset",
+  "A3": "91763ee4-9512-4b55-8805-b73454636446",
+  "A4": "91763ee4-9512-4b55-8805-b73454636446",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "f66bf19b-d14b-4544-907c-fe5dc5a6f0ee",
+  "E6": true,
+  "E17": "ErpAssetId",
+  "E18": "ErpAssetName"
+}
++ MetaData.Schema.D2 {
+  "UId": "20242a84-bf69-45f7-9556-35ac57f0d461",
+  "A2": "ErpMoney",
+  "A3": "91763ee4-9512-4b55-8805-b73454636446",
+  "A4": "91763ee4-9512-4b55-8805-b73454636446",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "f37db32e-1bb4-4439-9a30-136a772ce062",
+  "E6": true,
+  "E17": "ErpMoneyId",
+  "E18": "ErpMoneyErpName"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","84186cc8-4bcd-4c80-86d8-24d9c4b8944c","7b02ce80-edbd-4e88-bc56-7f514449ba11","aa7ebe8a-5c61-49e9-94ae-3bead4bb4505","ee5f9ea9-36fc-4411-bdbf-4bf1f15d3b00","a25d57cd-4cf5-4a70-b799-ae54eac1cd4e","6ca5c6ab-25ba-4a24-92ea-18a421e01ac1","20242a84-bf69-45f7-9556-35ac57f0d461"]
 - MetaData.Schema.EG1.B6
 - MetaData.Schema.EG1.BK29
 - MetaData.Schema.EG1.BK30

@@ -3,6 +3,10 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Edit page: &quot;ERP money&quot;" />
+			<Item Name="LocalizableStrings.ErpSchema5563a8a9Detail310d33cdDetailCaptionOnPage.Value" Value="Fund register" />
+			<Item Name="LocalizableStrings.Tab1be6c2c8TabLabelTabCaption.Value" Value="Registration" />
+			<Item Name="LocalizableStrings.Tab83b0ec1eTabLabelTabCaption.Value" Value="Links" />
+			<Item Name="LocalizableStrings.Tabda6f9525TabLabelTabCaption.Value" Value="Mutual settlements" />
 		</Items>
 	</Group>
 </Resources>

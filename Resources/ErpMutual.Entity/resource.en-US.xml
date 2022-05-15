@@ -3,8 +3,18 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Mutual settlements" />
+			<Item Name="Columns.ErpAccount.Caption" Value="Company" />
+			<Item Name="Columns.ErpAmount.Caption" Value="Amount" />
+			<Item Name="Columns.ErpContact.Caption" Value="Contact" />
+			<Item Name="Columns.ErpContractor.Caption" Value="Contractor" />
+			<Item Name="Columns.ErpCurrency.Caption" Value="Currency" />
+			<Item Name="Columns.ErpDate.Caption" Value="Date" />
+			<Item Name="Columns.ErpMoney.Caption" Value="Money" />
 			<Item Name="Columns.ErpName.Caption" Value="Name" />
 			<Item Name="Columns.ErpNotes.Caption" Value="Notes" />
+			<Item Name="Columns.ErpSalary.Caption" Value="Salary" />
+			<Item Name="Columns.ErpSale.Caption" Value="Sale" />
+			<Item Name="Columns.ErpSaleExecutor.Caption" Value="Sale executor" />
 		</Items>
 	</Group>
 </Resources>

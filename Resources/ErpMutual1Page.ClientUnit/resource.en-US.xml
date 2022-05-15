@@ -3,6 +3,10 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Edit page: &quot;Mutual settlements&quot;" />
+			<Item Name="LocalizableStrings.Tab20623571TabLabelGroup12fcf6c0GroupCaption.Value" Value="Entities" />
+			<Item Name="LocalizableStrings.Tab20623571TabLabelGroupb3fe79f7GroupCaption.Value" Value="Mutuals" />
+			<Item Name="LocalizableStrings.Tab20623571TabLabelTabCaption.Value" Value="Links" />
+			<Item Name="LocalizableStrings.Tabad13aac2TabLabelTabCaption.Value" Value="Accounting" />
 		</Items>
 	</Group>
 </Resources>

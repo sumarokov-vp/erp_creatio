@@ -3,8 +3,14 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="ERP sales" />
+			<Item Name="Columns.ErpAccount.Caption" Value="Company" />
+			<Item Name="Columns.ErpCode.Caption" Value="Code" />
+			<Item Name="Columns.ErpContact.Caption" Value="Contact" />
+			<Item Name="Columns.ErpCurency.Caption" Value="Currency" />
+			<Item Name="Columns.ErpDate.Caption" Value="Date" />
 			<Item Name="Columns.ErpName.Caption" Value="Name" />
 			<Item Name="Columns.ErpNotes.Caption" Value="Notes" />
+			<Item Name="Columns.ErpRegistered.Caption" Value="Registered" />
 		</Items>
 	</Group>
 </Resources>

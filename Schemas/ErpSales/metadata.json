@@ -24,7 +24,6 @@
   "A4": "7f161ea4-773a-4165-9173-be3193659e58",
   "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
   "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
-  "E2": 1,
   "E5": false
 }
 + MetaData.Schema.D2 {
@@ -36,7 +35,67 @@
   "S2": "c0f04627-4620-4bc0-84e5-9419dc8516b1",
   "E5": false
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","71a0e4ed-5a57-4d3f-8714-1a7d1d6704ae","6b199dc9-ab18-41f6-9fc8-f85f4d3e0e56"]
++ MetaData.Schema.D2 {
+  "UId": "7980a4b2-b6dd-42d3-b040-bab99a4ace83",
+  "A2": "ErpRegistered",
+  "A3": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A4": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "90b65bf8-0ffc-4141-8779-2420877af907"
+}
++ MetaData.Schema.D2 {
+  "UId": "d2339dae-f770-4ed8-9994-bceab98d329b",
+  "A2": "ErpDate",
+  "A3": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A4": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "603d4960-a1a2-45e9-b232-206a54421b01"
+}
++ MetaData.Schema.D2 {
+  "UId": "6a89197a-9471-4887-be0b-6b88bc10ff8d",
+  "A2": "ErpCode",
+  "A3": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A4": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+}
++ MetaData.Schema.D2 {
+  "UId": "800b87c5-d120-41e5-ab57-9d98ff48e99f",
+  "A2": "ErpContact",
+  "A3": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A4": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+  "E6": true,
+  "E17": "ErpContactId",
+  "E18": "ErpContactName"
+}
++ MetaData.Schema.D2 {
+  "UId": "d53264db-60e8-460c-8307-f186491eec39",
+  "A2": "ErpAccount",
+  "A3": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A4": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "25d7c1ab-1de0-4501-b402-02e0e5a72d6e",
+  "E6": true,
+  "E17": "ErpAccountId",
+  "E18": "ErpAccountName"
+}
++ MetaData.Schema.D2 {
+  "UId": "e48eb5f8-88db-4ed9-8afd-d0bdc86d5697",
+  "A2": "ErpCurency",
+  "A3": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A4": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "2d36aca6-5b8c-4122-9648-baf3b7f8256d",
+  "E6": true,
+  "E17": "ErpCurencyId",
+  "E18": "ErpCurencyName"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","71a0e4ed-5a57-4d3f-8714-1a7d1d6704ae","6b199dc9-ab18-41f6-9fc8-f85f4d3e0e56","7980a4b2-b6dd-42d3-b040-bab99a4ace83","d2339dae-f770-4ed8-9994-bceab98d329b","6a89197a-9471-4887-be0b-6b88bc10ff8d","800b87c5-d120-41e5-ab57-9d98ff48e99f","d53264db-60e8-460c-8307-f186491eec39","e48eb5f8-88db-4ed9-8afd-d0bdc86d5697"]
 - MetaData.Schema.EG1.B6
 - MetaData.Schema.EG1.BK29
 - MetaData.Schema.EG1.BK30
