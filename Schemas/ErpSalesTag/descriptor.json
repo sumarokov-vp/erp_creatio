@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "2bfd9d00-589b-4141-8451-e4b54f6a6fd4",
+    "Name": "ErpSalesTag",
+    "ModifiedOnUtc": "\/Date(1652602402000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "ERP sales section tag",
+    "DependsOn": []
+  }
+}

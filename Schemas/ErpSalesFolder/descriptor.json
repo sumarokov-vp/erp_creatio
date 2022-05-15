@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "dadadd3a-07b2-4b43-bc02-fcf9bb6c7694",
+    "Name": "ErpSalesFolder",
+    "ModifiedOnUtc": "\/Date(1652602393000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "ERP sales folder",
+    "DependsOn": []
+  }
+}

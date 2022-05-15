@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "785e0b98-5a83-47f6-9dc8-1d6fa956e74b",
+    "Name": "ErpSalesa7f7103bSection",
+    "ModifiedOnUtc": "\/Date(1652602372000)\/",
+    "Parent": {
+      "UId": "7912fb69-4fee-429f-8b23-93943c35d66d",
+      "Name": "BaseSectionV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Section schema: \"ERP sales\"",
+    "DependsOn": []
+  }
+}
