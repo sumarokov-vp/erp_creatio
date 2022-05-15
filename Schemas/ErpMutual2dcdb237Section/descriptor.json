@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "42279f95-b4a5-4590-bbac-370ebf823b73",
+    "Name": "ErpMutual2dcdb237Section",
+    "ModifiedOnUtc": "\/Date(1652607486000)\/",
+    "Parent": {
+      "UId": "7912fb69-4fee-429f-8b23-93943c35d66d",
+      "Name": "BaseSectionV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Section schema: \"Mutual settlements\""
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "adb54926-aaa4-42ce-901f-a47d9ae5233b",
+    "Name": "ErpProfit1Page",
+    "ModifiedOnUtc": "\/Date(1652609101000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Edit page: \"ERP profit\""
+  }
+}

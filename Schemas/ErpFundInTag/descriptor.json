@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "c175134a-8ec1-43b7-a8cb-f19795d13864",
+    "Name": "ErpFundInTag",
+    "ModifiedOnUtc": "\/Date(1652609816000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Fund register section record tag"
+  }
+}

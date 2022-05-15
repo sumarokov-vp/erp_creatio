@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "d7d38521-a43f-43a5-b4bb-e9baaef2366f",
+    "Name": "ErpProfitTag",
+    "ModifiedOnUtc": "\/Date(1652609126000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "ERP profit section tag"
+  }
+}

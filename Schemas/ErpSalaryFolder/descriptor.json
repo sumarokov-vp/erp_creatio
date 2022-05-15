@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "1203c5c8-c335-4d03-9335-6cfe9acf1fa8",
+    "Name": "ErpSalaryFolder",
+    "ModifiedOnUtc": "\/Date(1652605287000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "ERP salary folder"
+  }
+}

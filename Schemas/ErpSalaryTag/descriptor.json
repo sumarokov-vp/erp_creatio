@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "3b986b3b-32b7-4112-aab2-935235061e9f",
+    "Name": "ErpSalaryTag",
+    "ModifiedOnUtc": "\/Date(1652605297000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "ERP salary section tag"
+  }
+}

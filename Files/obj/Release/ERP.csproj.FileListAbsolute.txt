@@ -1,0 +1,9 @@
+/root/creatio/Terrasoft.Configuration/Pkg/ERP/Files/Bin/netstandard/ERP.deps.json
+/root/creatio/Terrasoft.Configuration/Pkg/ERP/Files/Bin/netstandard/ERP.dll
+/root/creatio/Terrasoft.Configuration/Pkg/ERP/Files/Bin/netstandard/ERP.pdb
+/root/creatio/Terrasoft.Configuration/Pkg/ERP/Files/obj/Release/ERP.csprojAssemblyReference.cache
+/root/creatio/Terrasoft.Configuration/Pkg/ERP/Files/obj/Release/ERP.AssemblyInfoInputs.cache
+/root/creatio/Terrasoft.Configuration/Pkg/ERP/Files/obj/Release/ERP.AssemblyInfo.cs
+/root/creatio/Terrasoft.Configuration/Pkg/ERP/Files/obj/Release/ERP.csproj.CoreCompileInputs.cache
+/root/creatio/Terrasoft.Configuration/Pkg/ERP/Files/obj/Release/ERP.dll
+/root/creatio/Terrasoft.Configuration/Pkg/ERP/Files/obj/Release/ERP.pdb

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "5ece4f2e-162f-4102-97d7-31dcf8076f3a",
+    "Name": "ErpProfit",
+    "ModifiedOnUtc": "\/Date(1652609106000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "ERP profit"
+  }
+}

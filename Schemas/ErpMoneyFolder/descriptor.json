@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "8ca634b3-fea1-49bd-97d3-1cd5c9cbbfc9",
+    "Name": "ErpMoneyFolder",
+    "ModifiedOnUtc": "\/Date(1652604084000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "ERP money folder"
+  }
+}

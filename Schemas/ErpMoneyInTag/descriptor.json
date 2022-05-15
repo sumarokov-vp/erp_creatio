@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "9eb5e8ee-144a-4a14-9f8a-6da58402441c",
+    "Name": "ErpMoneyInTag",
+    "ModifiedOnUtc": "\/Date(1652604098000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "ERP money section record tag"
+  }
+}

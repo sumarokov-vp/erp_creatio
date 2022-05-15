@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "dfee7c32-749d-48a0-a11d-bc917a06b9bf",
+    "Name": "ErpProfitInFolder",
+    "ModifiedOnUtc": "\/Date(1652609121000)\/",
+    "Parent": {
+      "UId": "4f63bafb-e9e7-4082-b92e-66b97c14017c",
+      "Name": "BaseItemInFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "ERP profit in Folder"
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "42b8db94-94bb-4ba4-bb8a-26cdae60ef62",
+    "Name": "ErpStockTag",
+    "ModifiedOnUtc": "\/Date(1652609684000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Stock register section tag"
+  }
+}

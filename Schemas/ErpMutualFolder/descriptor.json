@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "f42e5172-2c65-4ed7-bb4f-36157b4fe206",
+    "Name": "ErpMutualFolder",
+    "ModifiedOnUtc": "\/Date(1652607507000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Mutual settlements folder"
+  }
+}

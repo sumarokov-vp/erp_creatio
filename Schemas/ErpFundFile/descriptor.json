@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "c824807a-8213-45af-ae4b-0c3af93eca51",
+    "Name": "ErpFundFile",
+    "ModifiedOnUtc": "\/Date(1652609796000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Fund register attachment"
+  }
+}

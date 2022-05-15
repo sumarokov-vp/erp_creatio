@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "efc3c43c-b00c-4e35-a817-6bbb9a4fb178",
+    "Name": "ErpStockac3b8414Section",
+    "ModifiedOnUtc": "\/Date(1652609653000)\/",
+    "Parent": {
+      "UId": "7912fb69-4fee-429f-8b23-93943c35d66d",
+      "Name": "BaseSectionV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Section schema: \"Stock register\""
+  }
+}

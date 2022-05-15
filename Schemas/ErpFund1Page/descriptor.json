@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "1ff8897f-4c4e-4853-b787-ec5f4c5dff74",
+    "Name": "ErpFund1Page",
+    "ModifiedOnUtc": "\/Date(1652609786000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Edit page: \"Fund register\""
+  }
+}

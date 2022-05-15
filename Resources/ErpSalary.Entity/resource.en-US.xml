@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="ERP salary" />
+			<Item Name="Columns.ErpName.Caption" Value="Name" />
+			<Item Name="Columns.ErpNotes.Caption" Value="Notes" />
+		</Items>
+	</Group>
+</Resources>

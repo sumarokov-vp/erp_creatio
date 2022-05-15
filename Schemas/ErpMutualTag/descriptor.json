@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "3fb3d4aa-2b17-4bba-984a-3c2456c49bb5",
+    "Name": "ErpMutualTag",
+    "ModifiedOnUtc": "\/Date(1652607517000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Mutual settlements section tag"
+  }
+}
