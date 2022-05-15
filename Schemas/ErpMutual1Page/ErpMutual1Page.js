@@ -291,6 +291,25 @@ define("ErpMutual1Page", [], function() {
 			},
 			{
 				"operation": "insert",
+				"name": "LOOKUP2dd044a2-64f6-4be6-9abe-23475fdcfb91",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 4,
+						"layoutName": "Tab20623571TabLabelGridLayout03df9a05"
+					},
+					"bindTo": "ErpReceipt",
+					"enabled": true,
+					"contentType": 5
+				},
+				"parentName": "Tab20623571TabLabelGridLayout03df9a05",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
 				"name": "Tabad13aac2TabLabel",
 				"values": {
 					"caption": {

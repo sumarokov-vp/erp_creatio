@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="he-IL">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Edit page: &quot;Receipts&quot;" />
+			<Item Name="LocalizableStrings.ErpSchema7315062cDetail29f66783DetailCaptionOnPage.Value" Value="אובייקט בסיס" />
+			<Item Name="LocalizableStrings.ErpSchemab80ca827Detailc289f7faDetailCaptionOnPage.Value" Value="אובייקט בסיס" />
+			<Item Name="LocalizableStrings.ErpSchemad9a551a2Detail916d93b2DetailCaptionOnPage.Value" Value="אובייקט בסיס" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "8b4513f2-d0b2-440c-b32c-59282b446776",
+    "Name": "ErpReceiptInTag",
+    "ModifiedOnUtc": "\/Date(1652632152000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Receipts section record tag"
+  }
+}

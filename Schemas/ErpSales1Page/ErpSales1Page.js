@@ -35,6 +35,22 @@ define("ErpSales1Page", [], function() {
 					"detailColumn": "ErpSale",
 					"masterColumn": "Id"
 				}
+			},
+			"ErpSchemab80ca827Detaild015619d": {
+				"schemaName": "ErpSchemab80ca827Detail",
+				"entitySchemaName": "ErpMutual",
+				"filter": {
+					"detailColumn": "ErpSale",
+					"masterColumn": "Id"
+				}
+			},
+			"ErpSchemad9a551a2Detail61d8f4a7": {
+				"schemaName": "ErpSchemad9a551a2Detail",
+				"entitySchemaName": "ErpProfit",
+				"filter": {
+					"detailColumn": "ErpSale",
+					"masterColumn": "Id"
+				}
 			}
 		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
@@ -245,10 +261,10 @@ define("ErpSales1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "NotesAndFilesTab",
+				"name": "Tabdd6a9c55TabLabel",
 				"values": {
 					"caption": {
-						"bindTo": "Resources.Strings.NotesAndFilesTabCaption"
+						"bindTo": "Resources.Strings.Tabdd6a9c55TabLabelTabCaption"
 					},
 					"items": [],
 					"order": 1
@@ -256,6 +272,42 @@ define("ErpSales1Page", [], function() {
 				"parentName": "Tabs",
 				"propertyName": "tabs",
 				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "ErpSchemab80ca827Detaild015619d",
+				"values": {
+					"itemType": 2,
+					"markerValue": "added-detail"
+				},
+				"parentName": "Tabdd6a9c55TabLabel",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ErpSchemad9a551a2Detail61d8f4a7",
+				"values": {
+					"itemType": 2,
+					"markerValue": "added-detail"
+				},
+				"parentName": "Tabdd6a9c55TabLabel",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "NotesAndFilesTab",
+				"values": {
+					"caption": {
+						"bindTo": "Resources.Strings.NotesAndFilesTabCaption"
+					},
+					"items": [],
+					"order": 2
+				},
+				"parentName": "Tabs",
+				"propertyName": "tabs",
+				"index": 2
 			},
 			{
 				"operation": "insert",

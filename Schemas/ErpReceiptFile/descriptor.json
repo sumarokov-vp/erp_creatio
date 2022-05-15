@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "5eabbf09-6103-4a19-8670-e5df3f951977",
+    "Name": "ErpReceiptFile",
+    "ModifiedOnUtc": "\/Date(1652632133000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Receipts attachment"
+  }
+}

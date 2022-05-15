@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "c7f389ad-bb2b-464c-a939-fbaeea96e175",
+    "Name": "ErpStockLkp",
+    "ModifiedOnUtc": "\/Date(1652636046000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "ERP stock lookup"
+  }
+}

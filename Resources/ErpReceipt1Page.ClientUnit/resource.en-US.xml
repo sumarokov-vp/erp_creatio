@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Edit page: &quot;Receipts&quot;" />
+			<Item Name="LocalizableStrings.ErpSchema3e46a19cDetailb178d7e5DetailCaptionOnPage.Value" Value="Product in receipt" />
+			<Item Name="LocalizableStrings.ErpSchema7315062cDetail29f66783DetailCaptionOnPage.Value" Value="Stock register" />
+			<Item Name="LocalizableStrings.ErpSchemab80ca827Detailc289f7faDetailCaptionOnPage.Value" Value="Mutual settlements" />
+			<Item Name="LocalizableStrings.ErpSchemad9a551a2Detail916d93b2DetailCaptionOnPage.Value" Value="ERP profit" />
+			<Item Name="LocalizableStrings.Tab72069b79TabLabelTabCaption.Value" Value="links" />
+			<Item Name="LocalizableStrings.Tab749c3ed2TabLabelTabCaption.Value" Value="Products" />
+			<Item Name="LocalizableStrings.Tabfaad4542TabLabelTabCaption.Value" Value="Registration" />
+		</Items>
+	</Group>
+</Resources>

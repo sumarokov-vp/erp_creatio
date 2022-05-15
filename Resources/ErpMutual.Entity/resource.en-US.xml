@@ -12,6 +12,7 @@
 			<Item Name="Columns.ErpMoney.Caption" Value="Money" />
 			<Item Name="Columns.ErpName.Caption" Value="Name" />
 			<Item Name="Columns.ErpNotes.Caption" Value="Notes" />
+			<Item Name="Columns.ErpReceipt.Caption" Value="Receipt" />
 			<Item Name="Columns.ErpSalary.Caption" Value="Salary" />
 			<Item Name="Columns.ErpSale.Caption" Value="Sale" />
 			<Item Name="Columns.ErpSaleExecutor.Caption" Value="Sale executor" />

@@ -3,8 +3,18 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Stock register" />
+			<Item Name="Columns.ErpContractor.Caption" Value="Contractor" />
+			<Item Name="Columns.ErpDate.Caption" Value="Date" />
 			<Item Name="Columns.ErpName.Caption" Value="Name" />
 			<Item Name="Columns.ErpNotes.Caption" Value="Notes" />
+			<Item Name="Columns.ErpPrice.Caption" Value="Price" />
+			<Item Name="Columns.ErpProduct.Caption" Value="Product" />
+			<Item Name="Columns.ErpProductInSale.Caption" Value="Product in sale" />
+			<Item Name="Columns.ErpQuantity.Caption" Value="Quantity" />
+			<Item Name="Columns.ErpReceipt.Caption" Value="Receipt" />
+			<Item Name="Columns.ErpSale.Caption" Value="Sale" />
+			<Item Name="Columns.ErpStockLookupInstance.Caption" Value="Stock" />
+			<Item Name="Columns.ErpTotal.Caption" Value="Total" />
 		</Items>
 	</Group>
 </Resources>

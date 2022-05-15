@@ -3,6 +3,8 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Edit page: &quot;ERP profit&quot;" />
+			<Item Name="LocalizableStrings.Tab62128c08TabLabelTabCaption.Value" Value="Accounting" />
+			<Item Name="LocalizableStrings.Taba1b2958cTabLabelTabCaption.Value" Value="Links" />
 		</Items>
 	</Group>
 </Resources>

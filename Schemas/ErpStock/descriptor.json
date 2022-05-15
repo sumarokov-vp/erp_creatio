@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "84a7217e-02b2-4236-bbd2-32b00966dab8",
     "Name": "ErpStock",
-    "ModifiedOnUtc": "\/Date(1652609664000)\/",
+    "ModifiedOnUtc": "\/Date(1652636743000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"

@@ -2,8 +2,8 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Section schema: &quot;ERP profit&quot;" />
-			<Item Name="LocalizableStrings.Caption.Value" Value="ERP profit" />
+			<Item Name="Caption" Value="Section schema: &quot;Profit&quot;" />
+			<Item Name="LocalizableStrings.Caption.Value" Value="Profit" />
 		</Items>
 	</Group>
 </Resources>
