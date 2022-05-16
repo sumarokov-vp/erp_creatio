@@ -21,7 +21,7 @@ BEGIN
     IF OLD."ErpRegistered" = true and NEW."ErpRegistered" = false THEN
 
         UPDATE
-            "public"."ErpEmpInSalary" x
+            "public"."ErpEmployeesInSalary" x
         SET
             "ErpRegistered" = false
         WHERE

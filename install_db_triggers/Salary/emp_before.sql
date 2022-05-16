@@ -7,6 +7,12 @@ BEGIN
     into NEW."ErpRegistered"
     from "public"."ErpSalary" x
     WHERE x."Id" = NEW."ErpSalaryId";
+
+    SELECT x."Name"
+    INTO NEW."ErpName"
+    FROM public."Contact" AS x
+    WHERE x."Id" = NEW."ErpContactId";
+
     RETURN NEW;
 END;
 $$

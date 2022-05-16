@@ -13,6 +13,8 @@ BEGIN
     WHERE
         "ErpSalaryId" = NEW."Id"
         AND "ErpEmployeeInSalaryId" IS NULL;
+    
+    RETURN NEW;
 
 END;
 $$

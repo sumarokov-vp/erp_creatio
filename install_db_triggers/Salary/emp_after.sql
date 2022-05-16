@@ -11,7 +11,7 @@ BEGIN
     WHERE "ErpEmpInSalaryId" = NEW."Id";
 
     DELETE FROM "public"."ErpProfit"
-    WHERE "ErpEmployeeInSalary" = NEW."Id";
+    WHERE "ErpEmployeeInSalaryId" = NEW."Id";
 
     _amount := NEW."ErpAmount";
 
@@ -28,21 +28,23 @@ BEGIN
         END IF;
         
         -- Register
-        PERFORM Erperp_mutual_registration(
+        PERFORM erp_mutual_registration(
             amount => _amount,
             contact_id => NEW."ErpContactId",
             contractor_id => _contractor_id,
             currency_id => NEW."ErpCurrencyId",
             dt => _dt,
-            employee_in_salary_id => NEW."Id"
+            employee_in_salary_id => NEW."Id",
+            salary_id => NEW."ErpSalaryId"
         );
         
-        PERFORM Erperp_profit_registration(
+        PERFORM erp_profit_registration(
             amount => _amount*(-1),
             contractor_id => _contractor_id,
             currency_id => NEW."ErpCurrencyId",
             dt => _dt,
-            employee_in_salary_id => NEW."Id"
+            employee_in_salary_id => NEW."Id",
+            salary_id => NEW."ErpSalaryId"
         );
 
     END IF;

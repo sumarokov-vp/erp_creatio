@@ -36,7 +36,7 @@ BEGIN
         "ErpDate",
         "ErpMoneyId",
         "ErpSaleId",
-        "ErpSaleExecutorsId",
+        "ErpSaleExecutorId",
         "ErpAccountingCurrencyId",
         "ErpAccountingAmount",
         "ErpEmployeeInSalaryId",
@@ -45,7 +45,7 @@ BEGIN
         "ErpSectionId"
     ) VALUES
         (COALESCE(amount,0), contractor_id, currency_id, dt, money_id,
-        sale_id, executor_id, accounting_currency_id, COALESCE(accounting_amount),
+        sale_id, executor_id, accounting_currency_id, COALESCE(accounting_amount, 0),
         employee_in_salary_id, salary_id,
         receipt_id, section_id);
 END;
