@@ -4,6 +4,8 @@
 		<Items>
 			<Item Name="Caption" Value="Edit page: &quot;ERP salary&quot;" />
 			<Item Name="LocalizableStrings.ErpSchemab80ca827Detailddf6fbcbDetailCaptionOnPage.Value" Value="Base objet" />
+			<Item Name="LocalizableStrings.ErpSchemad9a551a2Detail050f4c4eDetailCaptionOnPage.Value" Value="Base objet" />
+			<Item Name="LocalizableStrings.ErpSchemad9a551a2Detail2570d6caDetailCaptionOnPage.Value" Value="Base objet" />
 		</Items>
 	</Group>
 </Resources>

@@ -27,6 +27,14 @@ define("ErpSalary1Page", [], function() {
 					"detailColumn": "ErpSalary",
 					"masterColumn": "Id"
 				}
+			},
+			"ErpSchemad9a551a2Detail2570d6ca": {
+				"schemaName": "ErpSchemad9a551a2Detail",
+				"entitySchemaName": "ErpProfit",
+				"filter": {
+					"detailColumn": "ErpSalary",
+					"masterColumn": "Id"
+				}
 			}
 		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
@@ -195,6 +203,17 @@ define("ErpSalary1Page", [], function() {
 				"parentName": "Tab01161703TabLabel",
 				"propertyName": "items",
 				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ErpSchemad9a551a2Detail2570d6ca",
+				"values": {
+					"itemType": 2,
+					"markerValue": "added-detail"
+				},
+				"parentName": "Tab01161703TabLabel",
+				"propertyName": "items",
+				"index": 1
 			},
 			{
 				"operation": "insert",

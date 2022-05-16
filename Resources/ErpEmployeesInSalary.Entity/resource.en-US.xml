@@ -3,7 +3,13 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Employees in salary" />
+			<Item Name="Columns.ErpAmount.Caption" Value="Amount" />
+			<Item Name="Columns.ErpContact.Caption" Value="Contact" />
+			<Item Name="Columns.ErpCurrency.Caption" Value="Currency" />
 			<Item Name="Columns.ErpName.Caption" Value="Name" />
+			<Item Name="Columns.ErpPenalty.Caption" Value="Penalty" />
+			<Item Name="Columns.ErpProfitSection.Caption" Value="Profit section" />
+			<Item Name="Columns.ErpRegistered.Caption" Value="Registered" />
 			<Item Name="Columns.ErpSalary.Caption" Value="ERP salary" />
 		</Items>
 	</Group>

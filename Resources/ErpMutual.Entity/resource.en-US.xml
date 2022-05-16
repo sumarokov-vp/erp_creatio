@@ -4,11 +4,14 @@
 		<Items>
 			<Item Name="Caption" Value="Mutual settlements" />
 			<Item Name="Columns.ErpAccount.Caption" Value="Company" />
+			<Item Name="Columns.ErpAccountingAmount.Caption" Value="Accounting amount" />
+			<Item Name="Columns.ErpAccountingCurrency.Caption" Value="Accounting currency" />
 			<Item Name="Columns.ErpAmount.Caption" Value="Amount" />
 			<Item Name="Columns.ErpContact.Caption" Value="Contact" />
 			<Item Name="Columns.ErpContractor.Caption" Value="Contractor" />
 			<Item Name="Columns.ErpCurrency.Caption" Value="Currency" />
 			<Item Name="Columns.ErpDate.Caption" Value="Date" />
+			<Item Name="Columns.ErpEmpInSalary.Caption" Value="Employee in salary" />
 			<Item Name="Columns.ErpMoney.Caption" Value="Money" />
 			<Item Name="Columns.ErpName.Caption" Value="Name" />
 			<Item Name="Columns.ErpNotes.Caption" Value="Notes" />

@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "9ed93f46-24c7-49cc-8c30-3df30067798a",
     "Name": "ErpEmployeesInSalary",
-    "ModifiedOnUtc": "\/Date(1652622550000)\/",
+    "ModifiedOnUtc": "\/Date(1652720034000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"

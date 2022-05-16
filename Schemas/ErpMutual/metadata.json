@@ -159,12 +159,52 @@
   "E17": "ErpReceiptId",
   "E18": "ErpReceiptErpName"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","7ae4978c-6056-42bb-b886-e3205fcdfcc8","bc0c78c9-3aa8-45b6-aa79-a2b57a07bf67","7e399278-e45d-4364-a6fb-a239e039e59d","e41a8cdb-4c58-46a4-a382-4f8ac6799f12","5e4c8a92-a6bb-4b77-95be-34d023d977de","f16af88e-2cc8-47e7-a823-c90b7f01988f","d2df36a0-5678-4a3b-89b4-b43d36ab04b0","ae26d3b7-abbd-454c-9140-1189647d3883","7a75d547-86db-41a8-b8cb-bad5634c9ca2","2d1fe0c9-4dfe-4f2f-a962-284e61a5a206","2b73cae1-3951-4b56-88f7-16b34d79aa76","d46b85ef-9fb0-4266-8011-74d95772ae63","69c8f42c-fcec-4516-9f51-5e1021cdd1c5"]
++ MetaData.Schema.D2 {
+  "UId": "7df1c716-635d-1b2f-d454-82ac7ca77981",
+  "A2": "ErpAccountingAmount",
+  "A3": "15cfc766-89c4-4262-b129-1293b4280396",
+  "A4": "15cfc766-89c4-4262-b129-1293b4280396",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
++ MetaData.Schema.D2 {
+  "UId": "fae454a5-7128-f820-28d1-85784f19c916",
+  "A2": "ErpAccountingCurrency",
+  "A3": "15cfc766-89c4-4262-b129-1293b4280396",
+  "A4": "15cfc766-89c4-4262-b129-1293b4280396",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "2d36aca6-5b8c-4122-9648-baf3b7f8256d",
+  "E6": true,
+  "E17": "ErpAccountingCurrencyId",
+  "E18": "ErpAccountingCurrencyName"
+}
++ MetaData.Schema.D2 {
+  "UId": "cf320edb-2128-f80c-3059-4bfc3ef3feac",
+  "A2": "ErpEmpInSalary",
+  "A3": "15cfc766-89c4-4262-b129-1293b4280396",
+  "A4": "15cfc766-89c4-4262-b129-1293b4280396",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "9ed93f46-24c7-49cc-8c30-3df30067798a",
+  "E6": true,
+  "E17": "ErpEmpInSalaryId",
+  "E18": "ErpEmpInSalaryErpName"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","7ae4978c-6056-42bb-b886-e3205fcdfcc8","bc0c78c9-3aa8-45b6-aa79-a2b57a07bf67","7e399278-e45d-4364-a6fb-a239e039e59d","e41a8cdb-4c58-46a4-a382-4f8ac6799f12","5e4c8a92-a6bb-4b77-95be-34d023d977de","f16af88e-2cc8-47e7-a823-c90b7f01988f","d2df36a0-5678-4a3b-89b4-b43d36ab04b0","ae26d3b7-abbd-454c-9140-1189647d3883","7a75d547-86db-41a8-b8cb-bad5634c9ca2","2d1fe0c9-4dfe-4f2f-a962-284e61a5a206","2b73cae1-3951-4b56-88f7-16b34d79aa76","d46b85ef-9fb0-4266-8011-74d95772ae63","69c8f42c-fcec-4516-9f51-5e1021cdd1c5","7df1c716-635d-1b2f-d454-82ac7ca77981","fae454a5-7128-f820-28d1-85784f19c916","cf320edb-2128-f80c-3059-4bfc3ef3feac"]
+= MetaData.Schema.D20.A2 "ErpMutualEvents"
 - MetaData.Schema.EG1.B6
 - MetaData.Schema.EG1.BK29
 - MetaData.Schema.EG1.BK30
 - MetaData.Schema.D1
-- MetaData.Schema.D20
+- MetaData.Schema.D20.A5
+- MetaData.Schema.D20.FA4
+- MetaData.Schema.D20.FA5
+- MetaData.Schema.D20.FA6
+- MetaData.Schema.D20.FA7
+- MetaData.Schema.D20.FA11
+- MetaData.Schema.D20.FA12
+- MetaData.Schema.D20.FA15
 + MetaData.Schema.B7 false
 + MetaData.Schema.D2.["ae0e45ca-c495-4fe7-a39d-3ab7278e1617"].E16 false
 + MetaData.Schema.D2.["e80190a5-03b2-4095-90f7-a193a960adee"].E16 false

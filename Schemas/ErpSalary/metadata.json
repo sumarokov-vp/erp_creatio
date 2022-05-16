@@ -63,12 +63,28 @@
   "E17": "ErpContractorId",
   "E18": "ErpContractorName"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","26c21fe3-417c-4d82-b964-1dbacada1e0e","b0e1e76b-2aa9-47a2-9fc2-800f852931f2","e486e749-af34-4472-813f-03ed43e4fbdb","6613afbd-ff4d-4842-8e57-8f86377cdbce","cbdc4d7c-a2e5-4a12-928a-459930421921"]
++ MetaData.Schema.D2 {
+  "UId": "07fa8fd8-ad70-58a8-6483-55aba8ef8437",
+  "A2": "ErpReregister",
+  "A3": "3c5f626f-43af-451a-9932-14761fb4aad4",
+  "A4": "3c5f626f-43af-451a-9932-14761fb4aad4",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "90b65bf8-0ffc-4141-8779-2420877af907"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","26c21fe3-417c-4d82-b964-1dbacada1e0e","b0e1e76b-2aa9-47a2-9fc2-800f852931f2","e486e749-af34-4472-813f-03ed43e4fbdb","6613afbd-ff4d-4842-8e57-8f86377cdbce","cbdc4d7c-a2e5-4a12-928a-459930421921","07fa8fd8-ad70-58a8-6483-55aba8ef8437"]
+= MetaData.Schema.D20.A2 "ErpSalaryEvents"
 - MetaData.Schema.EG1.B6
 - MetaData.Schema.EG1.BK29
 - MetaData.Schema.EG1.BK30
 - MetaData.Schema.D1
-- MetaData.Schema.D20
+- MetaData.Schema.D20.A5
+- MetaData.Schema.D20.FA4
+- MetaData.Schema.D20.FA5
+- MetaData.Schema.D20.FA6
+- MetaData.Schema.D20.FA7
+- MetaData.Schema.D20.FA11
+- MetaData.Schema.D20.FA12
+- MetaData.Schema.D20.FA15
 + MetaData.Schema.B7 false
 + MetaData.Schema.D2.["ae0e45ca-c495-4fe7-a39d-3ab7278e1617"].E16 false
 + MetaData.Schema.D2.["e80190a5-03b2-4095-90f7-a193a960adee"].E16 false

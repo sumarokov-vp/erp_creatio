@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Employees in salary" />
 			<Item Name="LocalizableStrings.Caption.Value" Value="Employees in salary" />
+			<Item Name="LocalizableStrings.Tab80a5f565TabLabelTabCaption.Value" Value="Links" />
 		</Items>
 	</Group>
 </Resources>
