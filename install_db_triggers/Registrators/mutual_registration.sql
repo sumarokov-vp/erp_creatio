@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION "slerp_mutual_registration" (
+CREATE OR REPLACE FUNCTION "erp_mutual_registration" (
     account_id uuid DEFAULT NULL,
     amount numeric(18,2) DEFAULT NULL,
     contact_id uuid DEFAULT NULL,
@@ -7,7 +7,6 @@ CREATE OR REPLACE FUNCTION "slerp_mutual_registration" (
     currency_id uuid DEFAULT NULL,
     contractor_id uuid  DEFAULT NULL,
     sale_id uuid DEFAULT NULL,
-    entity_type_id uuid default NULL,
     employee_in_salary_id uuid default NULL,
     salary_id uuid default NULL,
     receipt_id uuid default NULL,
@@ -18,41 +17,38 @@ CREATE OR REPLACE FUNCTION "slerp_mutual_registration" (
 DECLARE
     accounting_amount numeric(18,2);
     accounting_currency_id uuid DEFAULT NULL;
-    ratio numeric(18,2);
 BEGIN
 
-    select erp_get_sys_setting('CurrencyRateRatio'::TEXT) into ratio;
-    select erp_get_sys_setting('SLAccountingCurrency'::TEXT) INTO accounting_currency_id;
+    select erp_get_sys_setting('ErpAccountingCurrency'::TEXT) INTO accounting_currency_id;
     
-    select amount * cr."SLRatioRate" / ratio
-    from "public"."SLCurrencyRatesRegister" cr
+    select amount * cr."ErpRatioRate" / cr."ErpRatio"
+    from "public"."ErpCurrencyRates" cr
     INTO accounting_amount
     where
-        cr."SLCurrency1Id" = accounting_currency_id
-        and cr."SLCurrency2Id" = currency_id
+        cr."ErpCurrency1Id" = accounting_currency_id
+        and cr."ErpCurrency2Id" = currency_id
         order by cr."CreatedOn" DESC;
 
 
-    insert into "public"."SLMu"
+    insert into "public"."ErpMutual"
     (
-        "SLAccountId",
-        "SLAmount",
-        "SLContactId",
-        "SLDate",
-        "SLMoneyId",
-        "SLCurrencyId",
-        "SLContractorId",
-        "SLSaleId",
-        "SLEntityTypeId",
-        "SLAccountingAmount",
-        "SLAccountingCurrencyId",
-        "SLEmpInSalaryId",
-        "SLSalaryId",
-        "SLReceiptId",
-        "SLExecutorId"
+        "ErpAccountId",
+        "ErpAmount",
+        "ErpContactId",
+        "ErpDate",
+        "ErpMoneyId",
+        "ErpCurrencyId",
+        "ErpContractorId",
+        "ErpSaleId",
+        "ErpAccountingAmount",
+        "ErpAccountingCurrencyId",
+        "ErpEmpInSalaryId",
+        "ErpSalaryId",
+        "ErpReceiptId",
+        "ErpSaleExecutorId"
     ) VALUES
         (account_id, COALESCE(amount,0), contact_id, dt, money_id, currency_id,
-        contractor_id, sale_id, entity_type_id, accounting_amount,
+        contractor_id, sale_id, COALESCE(accounting_amount, 0),
         accounting_currency_id, employee_in_salary_id, salary_id,
         receipt_id, executor_id);
 END;

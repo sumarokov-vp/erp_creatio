@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION "slerp_profit_registration" (
+CREATE OR REPLACE FUNCTION "erp_profit_registration" (
     amount numeric(18,2) DEFAULT NULL,
     contractor_id uuid  DEFAULT NULL,
     currency_id uuid DEFAULT NULL,
@@ -16,45 +16,38 @@ CREATE OR REPLACE FUNCTION "slerp_profit_registration" (
 DECLARE
     accounting_amount numeric(18,2);
     accounting_currency_id uuid DEFAULT NULL;
-    ratio numeric(18,2);
-    absolute_amount numeric(18,2);
 BEGIN
 
-    select slerp_get_sys_setting('CurrencyRateRatio'::TEXT) into ratio;
-    select slerp_get_sys_setting('SLAccountingCurrency'::TEXT) INTO accounting_currency_id;
+    select erp_get_sys_setting('ErpAccountingCurrency'::TEXT) INTO accounting_currency_id;
     
-    select amount * cr."SLRatioRate" / ratio
-    from "public"."SLCurrencyRatesRegister" cr
+    select amount * cr."ErpRatioRate" / cr."ErpRatio"
+    from "public"."ErpCurrencyRates" cr
     INTO accounting_amount
     where
-        cr."SLCurrency1Id" = accounting_currency_id
-        and cr."SLCurrency2Id" = currency_id
+        cr."ErpCurrency1Id" = accounting_currency_id
+        and cr."ErpCurrency2Id" = currency_id
         order by cr."CreatedOn" DESC;
-    IF amount >= 0 then absolute_amount := amount;
-    ELSE absolute_amount := amount*(-1);
-    END IF;
 
-    insert into "public"."SLProfitRegister"
+    insert into "public"."ErpProfit"
     (
-        "SLAmount",
-        "SLContractorId",
-        "SLCurrencyId",
-        "SLDate",
-        "SLMoneyId",
-        "SLSaleId",
-        "SLExecutorsId",
-        "SLAccountingCurrencyId",
-        "SLAccountingAmount",
-        "SLEmpInSalaryId",
-        "SLSalaryId",
-        "SLReceiptId",
-        "SLSectionId",
-        "SLAbsoluteAmount"
+        "ErpAmount",
+        "ErpContractorId",
+        "ErpCurrencyId",
+        "ErpDate",
+        "ErpMoneyId",
+        "ErpSaleId",
+        "ErpSaleExecutorsId",
+        "ErpAccountingCurrencyId",
+        "ErpAccountingAmount",
+        "ErpEmployeeInSalaryId",
+        "ErpSalaryId",
+        "ErpReceiptId",
+        "ErpSectionId"
     ) VALUES
         (COALESCE(amount,0), contractor_id, currency_id, dt, money_id,
-        sale_id, executor_id, accounting_currency_id, accounting_amount,
+        sale_id, executor_id, accounting_currency_id, COALESCE(accounting_amount),
         employee_in_salary_id, salary_id,
-        receipt_id, section_id, COALESCE(absolute_amount,0));
+        receipt_id, section_id);
 END;
 $$
 LANGUAGE plpgsql;

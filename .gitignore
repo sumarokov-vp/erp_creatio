@@ -1,1 +1,4 @@
 /descriptor.json
+database.py
+venv/
+.vscode/
