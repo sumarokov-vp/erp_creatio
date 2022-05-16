@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "d7817069-3f7c-45f6-a6ec-6bd4889ffb1c",
+    "Name": "ErpCurrencyRatesTag",
+    "ModifiedOnUtc": "\/Date(1652640121000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Currency rates section tag"
+  }
+}

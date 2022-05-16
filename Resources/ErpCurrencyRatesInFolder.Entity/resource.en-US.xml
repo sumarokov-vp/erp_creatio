@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Currency rates in Folder" />
+			<Item Name="Columns.ErpCurrencyRates.Caption" Value="Currency rates" />
+			<Item Name="Columns.Folder.Caption" Value="Currency rates folder" />
+		</Items>
+	</Group>
+</Resources>

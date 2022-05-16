@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "ee507a70-a7cc-46d5-96e8-e3e435c7261c",
+    "Name": "ErpCurrencyRates1Page",
+    "ModifiedOnUtc": "\/Date(1652640032000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Edit page: \"Currency rates\""
+  }
+}

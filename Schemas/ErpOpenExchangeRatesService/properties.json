@@ -1,0 +1,7 @@
+﻿{
+  "Properties": {
+    "BaseUri": "https://openexchangerates.org",
+    "CreatedInVersion": "7.18.5.1501",
+    "Type": "Rest"
+  }
+}

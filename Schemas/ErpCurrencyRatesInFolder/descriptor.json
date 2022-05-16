@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "fc6c6dd7-6119-4ae7-a4f1-9a618dac001e",
+    "Name": "ErpCurrencyRatesInFolder",
+    "ModifiedOnUtc": "\/Date(1652640108000)\/",
+    "Parent": {
+      "UId": "4f63bafb-e9e7-4082-b92e-66b97c14017c",
+      "Name": "BaseItemInFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Currency rates in Folder"
+  }
+}

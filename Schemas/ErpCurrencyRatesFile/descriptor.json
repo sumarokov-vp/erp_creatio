@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "b701336d-75fa-4a83-8129-c8d8c90e1148",
+    "Name": "ErpCurrencyRatesFile",
+    "ModifiedOnUtc": "\/Date(1652640082000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Currency rates attachment"
+  }
+}

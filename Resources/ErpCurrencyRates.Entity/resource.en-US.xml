@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Currency rates" />
+			<Item Name="Columns.ErpCurrency1.Caption" Value="Currency 1" />
+			<Item Name="Columns.ErpCurrency2.Caption" Value="Currency 2" />
+			<Item Name="Columns.ErpName.Caption" Value="Name" />
+			<Item Name="Columns.ErpNotes.Caption" Value="Notes" />
+			<Item Name="Columns.ErpRate.Caption" Value="Rate" />
+			<Item Name="Columns.ErpRatio.Caption" Value="Ratio" />
+			<Item Name="Columns.ErpRatioRate.Caption" Value="Ratio rate" />
+			<Item Name="Columns.ErpReverse.Caption" Value="Reverse" />
+		</Items>
+	</Group>
+</Resources>

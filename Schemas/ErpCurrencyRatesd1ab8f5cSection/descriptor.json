@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "14365994-37f6-4ddf-a8e3-7ceda2aa7e4a",
+    "Name": "ErpCurrencyRatesd1ab8f5cSection",
+    "ModifiedOnUtc": "\/Date(1652640025000)\/",
+    "Parent": {
+      "UId": "7912fb69-4fee-429f-8b23-93943c35d66d",
+      "Name": "BaseSectionV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Section schema: \"Currency rates\""
+  }
+}
