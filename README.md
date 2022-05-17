@@ -15,6 +15,13 @@ set parameters:
 ```
 > I hope, you know, how to exit vim 🤪 
 
+Restart creatio. I suggest use tmux.
+```bash
+tmux
+cd ~/creatio/ 
+COMPlus_ThreadPool_ForceMinWorkerThreads=100 dotnet Terrasoft.WebHost.dll
+```
+
 Create package "ERP" with dependencies:
 - NUI
 - Base
@@ -41,3 +48,20 @@ cd ~/creatio/Terrasoft.Configuration/Pkg/ERP
 cp install_db_triggers/database_template.py install_db_triggers/database.py
 vim install_db_triggers/database.py
 ```
+
+Prepare python environment:
+```bash
+cd ~/creatio/Terrasoft.Configuration/Pkg/ERP/install_db_triggers
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+Install postgre sql functions and triggers:
+```bash
+python set_triggers.py
+```
+
+Set up system settings:
+- ErpCurrencyRateRatio
+- ErpAccountingCurrency
