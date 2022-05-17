@@ -2,9 +2,9 @@ import psycopg
 from database import connection_string
 
 file_list=[
-    'install_db_triggers/get_sys_setting.sql',
-    'install_db_triggers/currency_rates/after.sql',
-    'install_db_triggers/currency_rates/triggers.sql',
+    # 'install_db_triggers/get_sys_setting.sql',
+    # 'install_db_triggers/currency_rates/after.sql',
+    # 'install_db_triggers/currency_rates/triggers.sql',
     'install_db_triggers/Registrators/fund_registration.sql',
     'install_db_triggers/Registrators/mutual_registration.sql',
     'install_db_triggers/Registrators/profit_registration.sql',
@@ -28,13 +28,13 @@ file_list=[
     # 'install_db_triggers/Sale/after.sql',
     # 'install_db_triggers/Sale/before.sql',
     # 'install_db_triggers/Sale/triggers.sql',
+    'install_db_triggers/Money/naming.sql',
+    'install_db_triggers/Money/reregister.sql',
+    'install_db_triggers/Money/after.sql',
+    'install_db_triggers/Money/before.sql',
+    'install_db_triggers/Money/triggers.sql',
 
 
-    # 'postgre_triggers/SLMoney/money_naming.sql',
-    # 'postgre_triggers/SLMoney/money_after.sql',
-    # 'postgre_triggers/SLMoney/money_before.sql',
-    # 'postgre_triggers/SLMoney/money_reregister.sql',
-    # 'postgre_triggers/SLMoney/money_triggers.sql',
     # 'postgre_triggers/SLProductInReceipt/poduct_r_before.sql',
     # 'postgre_triggers/SLProductInReceipt/product_r_after.sql',
     # 'postgre_triggers/SLProductInReceipt/product_r_trigger.sql',
