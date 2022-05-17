@@ -13,7 +13,7 @@ set parameters:
 ...
 <add key="UseStaticFileContent" value="false" />
 ```
-> I hope, you know, how to exit vim $-)
+> I hope, you know, how to exit vim 🤪 
 
 Create package "ERP" with dependencies:
 - NUI
