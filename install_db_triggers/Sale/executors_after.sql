@@ -1,44 +1,43 @@
-CREATE OR REPLACE FUNCTION "slerp_executors_after" ()
+CREATE OR REPLACE FUNCTION "erp_executors_after" ()
     RETURNS TRIGGER
     AS $$
 DECLARE
     _dt date;
     _contractor_id uuid;
-    _currency_id uuid;
 BEGIN
 
-    DELETE FROM "public"."SLMu"
-    WHERE "SLExecutorId" = NEW."Id";
-    DELETE FROM "public"."SLProfitRegister"
-    WHERE "SLExecutorsId" = NEW."Id";
+    DELETE FROM "public"."ErpMutual"
+    WHERE "ErpSaleExecutorId" = NEW."Id";
+    DELETE FROM "public"."ErpProfit"
+    WHERE "ErpSaleExecutorId" = NEW."Id";
 
 
-    IF NEW."SLRegistered" = TRUE THEN
+    IF NEW."ErpRegistered" = TRUE THEN
 
-        select sale."SLDate", sale."SLContractorId", sale."SLCurrencyId"
-        into _dt, _contractor_id, _currency_id
-        from "public"."SLSales" sale
-        WHERE sale."Id" = NEW."SLSaleId";
+        select sale."ErpDate", sale."ErpContractorId"
+        into _dt, _contractor_id 
+        from "public"."ErpSales" sale
+        WHERE sale."Id" = NEW."ErpSaleId";
 
         -- Register
-        PERFORM slerp_mutual_registration(
-            amount => NEW."SLSalary",
-            contact_id => NEW."SLExecutorId",
+        PERFORM erp_mutual_registration(
+            amount => NEW."ErpAmount",
+            contact_id => NEW."ErpContactId",
             contractor_id => _contractor_id,
-            currency_id => NEW."SLCurrencyId",
+            currency_id => NEW."ErpCurrencyId",
             dt => _dt,
             executor_id => NEW."Id",
-            sale_id => NEW."SLSaleId"
+            sale_id => NEW."ErpSaleId"
 
         );
         
-        PERFORM slerp_profit_registration(
-            amount => NEW."SLSalary"*(-1),
+        PERFORM erp_profit_registration(
+            amount => NEW."ErpAmount"*(-1),
             contractor_id => _contractor_id,
-            currency_id => NEW."SLCurrencyId",
+            currency_id => NEW."ErpCurrencyId",
             dt => _dt,
             executor_id => NEW."Id",
-            sale_id => NEW."SLSaleId"
+            sale_id => NEW."ErpSaleId"
         );
 
     END IF;

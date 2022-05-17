@@ -26,6 +26,7 @@ Create package "ERP" with dependencies:
 - NUI
 - Base
 - UIv2
+- ProductBase
 
 Download package to the file system
 
@@ -62,6 +63,8 @@ Install postgre sql functions and triggers:
 python set_triggers.py
 ```
 
-Set up system settings:
+### Lookups
+
+### System settings:
 - ErpCurrencyRateRatio
 - ErpAccountingCurrency

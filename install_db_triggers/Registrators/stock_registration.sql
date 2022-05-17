@@ -23,7 +23,7 @@ BEGIN
         "ErpQuantity",
         "ErpReceiptId",
         "ErpSaleId",
-        "ErpStockLookupInstance",
+        "ErpStockLookupInstanceId",
         "ErpProductInReceiptId",
         "ErpProductInSaleId"
     ) VALUES

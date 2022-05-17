@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION "erp_executors_before" ()
+CREATE OR REPLACE FUNCTION "erp_product_before" ()
     RETURNS TRIGGER
     AS $$
 
@@ -9,7 +9,7 @@ BEGIN
     from "public"."ErpSales" sale
     WHERE sale."Id" = NEW."ErpSaleId";
 
-
+    NEW."ErpTotal" := NEW."ErpPrice" * NEW."ErpQuantity";
 
     RETURN NEW;
 END;
