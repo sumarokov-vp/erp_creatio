@@ -9,6 +9,7 @@
 			<Item Name="Columns.ErpNotes.Caption" Value="Notes" />
 			<Item Name="Columns.ErpPrice.Caption" Value="Price" />
 			<Item Name="Columns.ErpProduct.Caption" Value="Product" />
+			<Item Name="Columns.ErpProductInReceipt.Caption" Value="Product in receipt" />
 			<Item Name="Columns.ErpProductInSale.Caption" Value="Product in sale" />
 			<Item Name="Columns.ErpQuantity.Caption" Value="Quantity" />
 			<Item Name="Columns.ErpReceipt.Caption" Value="Receipt" />

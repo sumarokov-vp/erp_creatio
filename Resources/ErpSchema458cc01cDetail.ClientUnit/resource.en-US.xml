@@ -2,8 +2,8 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Erp sale executor" />
-			<Item Name="LocalizableStrings.Caption.Value" Value="Erp sale executor" />
+			<Item Name="Caption" Value="Detail schema: &quot;Executors&quot;" />
+			<Item Name="LocalizableStrings.Caption.Value" Value="Executors" />
 		</Items>
 	</Group>
 </Resources>

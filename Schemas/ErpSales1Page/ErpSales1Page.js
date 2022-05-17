@@ -209,7 +209,7 @@ define("ErpSales1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "LOOKUP36c54616-6d6e-4a87-8a89-e800d5d00740",
+				"name": "ErpCurrency8d0a074b-1a39-4134-b2f1-55057dfe6742",
 				"values": {
 					"layout": {
 						"colSpan": 12,
@@ -218,13 +218,30 @@ define("ErpSales1Page", [], function() {
 						"row": 2,
 						"layoutName": "Tabf7ea2e81TabLabelGridLayoute7652599"
 					},
-					"bindTo": "ErpCurency",
+					"bindTo": "ErpCurrency"
+				},
+				"parentName": "Tabf7ea2e81TabLabelGridLayoute7652599",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "LOOKUPa5701855-d949-4bad-bcdb-5211ddc5e883",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 3,
+						"layoutName": "Tabf7ea2e81TabLabelGridLayoute7652599"
+					},
+					"bindTo": "ErpStock",
 					"enabled": true,
 					"contentType": 5
 				},
 				"parentName": "Tabf7ea2e81TabLabelGridLayoute7652599",
 				"propertyName": "items",
-				"index": 2
+				"index": 3
 			},
 			{
 				"operation": "insert",

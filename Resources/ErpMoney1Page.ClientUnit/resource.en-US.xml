@@ -4,6 +4,8 @@
 		<Items>
 			<Item Name="Caption" Value="Edit page: &quot;ERP money&quot;" />
 			<Item Name="LocalizableStrings.ErpSchema5563a8a9Detail310d33cdDetailCaptionOnPage.Value" Value="Fund register" />
+			<Item Name="LocalizableStrings.ErpSchemab80ca827Detail06a0d228DetailCaptionOnPage.Value" Value="Mutual settlements" />
+			<Item Name="LocalizableStrings.ErpSchemad9a551a2Detaila2c8537aDetailCaptionOnPage.Value" Value="ERP profit" />
 			<Item Name="LocalizableStrings.Tab1be6c2c8TabLabelTabCaption.Value" Value="Registration" />
 			<Item Name="LocalizableStrings.Tab83b0ec1eTabLabelTabCaption.Value" Value="Links" />
 			<Item Name="LocalizableStrings.Tabda6f9525TabLabelTabCaption.Value" Value="Mutual settlements" />

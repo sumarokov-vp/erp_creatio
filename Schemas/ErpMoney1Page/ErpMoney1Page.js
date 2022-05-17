@@ -19,6 +19,22 @@ define("ErpMoney1Page", [], function() {
 					"detailColumn": "ErpMoney",
 					"masterColumn": "Id"
 				}
+			},
+			"ErpSchemab80ca827Detail06a0d228": {
+				"schemaName": "ErpSchemab80ca827Detail",
+				"entitySchemaName": "ErpMutual",
+				"filter": {
+					"detailColumn": "ErpMoney",
+					"masterColumn": "Id"
+				}
+			},
+			"ErpSchemad9a551a2Detaila2c8537a": {
+				"schemaName": "ErpSchemad9a551a2Detail",
+				"entitySchemaName": "ErpProfit",
+				"filter": {
+					"detailColumn": "ErpMoney",
+					"masterColumn": "Id"
+				}
 			}
 		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
@@ -137,7 +153,7 @@ define("ErpMoney1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "LOOKUP5dc98eec-d377-414b-900a-f5e0de47bc6b",
+				"name": "LOOKUP20ad2a90-2972-47cc-8b6e-c926a1904b0c",
 				"values": {
 					"layout": {
 						"colSpan": 24,
@@ -146,13 +162,51 @@ define("ErpMoney1Page", [], function() {
 						"row": 6,
 						"layoutName": "ProfileContainer"
 					},
-					"bindTo": "ErpAsset",
+					"bindTo": "ErpOperationType",
 					"enabled": true,
 					"contentType": 5
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
 				"index": 6
+			},
+			{
+				"operation": "insert",
+				"name": "LOOKUP5dc98eec-d377-414b-900a-f5e0de47bc6b",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 7,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "ErpAsset",
+					"enabled": true,
+					"contentType": 5
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 7
+			},
+			{
+				"operation": "insert",
+				"name": "LOOKUPa196aa36-a5ce-40e3-8cdc-d86262f8814d",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 8,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "ErpDestinationAsset",
+					"enabled": true,
+					"contentType": 5
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 8
 			},
 			{
 				"operation": "insert",
@@ -275,6 +329,28 @@ define("ErpMoney1Page", [], function() {
 				"parentName": "Tab1be6c2c8TabLabel",
 				"propertyName": "items",
 				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ErpSchemab80ca827Detail06a0d228",
+				"values": {
+					"itemType": 2,
+					"markerValue": "added-detail"
+				},
+				"parentName": "Tab1be6c2c8TabLabel",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "ErpSchemad9a551a2Detaila2c8537a",
+				"values": {
+					"itemType": 2,
+					"markerValue": "added-detail"
+				},
+				"parentName": "Tab1be6c2c8TabLabel",
+				"propertyName": "items",
+				"index": 2
 			},
 			{
 				"operation": "insert",

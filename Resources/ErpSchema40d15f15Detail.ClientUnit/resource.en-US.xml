@@ -2,7 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Product in erp sale" />
+			<Item Name="Caption" Value="Detail schema: &quot;Product in erp sale&quot;" />
 			<Item Name="LocalizableStrings.Caption.Value" Value="Product in erp sale" />
 		</Items>
 	</Group>

@@ -4,6 +4,8 @@
 		<Items>
 			<Item Name="Caption" Value="Edit page: &quot;ERP money&quot;" />
 			<Item Name="LocalizableStrings.ErpSchema5563a8a9Detail310d33cdDetailCaptionOnPage.Value" Value="Basisobjekt" />
+			<Item Name="LocalizableStrings.ErpSchemab80ca827Detail06a0d228DetailCaptionOnPage.Value" Value="Basisobjekt" />
+			<Item Name="LocalizableStrings.ErpSchemad9a551a2Detaila2c8537aDetailCaptionOnPage.Value" Value="Basisobjekt" />
 		</Items>
 	</Group>
 </Resources>

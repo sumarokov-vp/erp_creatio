@@ -85,22 +85,70 @@
 }
 + MetaData.Schema.D2 {
   "UId": "e48eb5f8-88db-4ed9-8afd-d0bdc86d5697",
-  "A2": "ErpCurency",
+  "A2": "ErpCurrency",
   "A3": "7f161ea4-773a-4165-9173-be3193659e58",
   "A4": "7f161ea4-773a-4165-9173-be3193659e58",
   "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
   "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
   "S4": "2d36aca6-5b8c-4122-9648-baf3b7f8256d",
   "E6": true,
-  "E17": "ErpCurencyId",
-  "E18": "ErpCurencyName"
+  "E17": "ErpCurrencyId",
+  "E18": "ErpCurrencyName"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","71a0e4ed-5a57-4d3f-8714-1a7d1d6704ae","6b199dc9-ab18-41f6-9fc8-f85f4d3e0e56","7980a4b2-b6dd-42d3-b040-bab99a4ace83","d2339dae-f770-4ed8-9994-bceab98d329b","6a89197a-9471-4887-be0b-6b88bc10ff8d","800b87c5-d120-41e5-ab57-9d98ff48e99f","d53264db-60e8-460c-8307-f186491eec39","e48eb5f8-88db-4ed9-8afd-d0bdc86d5697"]
++ MetaData.Schema.D2 {
+  "UId": "f401b726-f542-1597-74ea-b32c7cd4e433",
+  "A2": "ErpContractor",
+  "A3": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A4": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "25d7c1ab-1de0-4501-b402-02e0e5a72d6e",
+  "E6": true,
+  "E17": "ErpContractorId",
+  "E18": "ErpContractorName"
+}
++ MetaData.Schema.D2 {
+  "UId": "6f0435fd-0376-423d-db98-103640444e1e",
+  "A2": "ErpTotal",
+  "A3": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A4": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
++ MetaData.Schema.D2 {
+  "UId": "2ac1887e-885d-ef32-eb11-773031b01bc3",
+  "A2": "ErpReregister",
+  "A3": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A4": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "90b65bf8-0ffc-4141-8779-2420877af907"
+}
++ MetaData.Schema.D2 {
+  "UId": "524cc71d-0335-4e5a-8e9a-18e5c4776089",
+  "A2": "ErpStock",
+  "A3": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A4": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "c7f389ad-bb2b-464c-a939-fbaeea96e175",
+  "E6": true,
+  "E17": "ErpStockId",
+  "E18": "ErpStockName"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","71a0e4ed-5a57-4d3f-8714-1a7d1d6704ae","6b199dc9-ab18-41f6-9fc8-f85f4d3e0e56","7980a4b2-b6dd-42d3-b040-bab99a4ace83","d2339dae-f770-4ed8-9994-bceab98d329b","6a89197a-9471-4887-be0b-6b88bc10ff8d","800b87c5-d120-41e5-ab57-9d98ff48e99f","d53264db-60e8-460c-8307-f186491eec39","e48eb5f8-88db-4ed9-8afd-d0bdc86d5697","f401b726-f542-1597-74ea-b32c7cd4e433","6f0435fd-0376-423d-db98-103640444e1e","2ac1887e-885d-ef32-eb11-773031b01bc3","524cc71d-0335-4e5a-8e9a-18e5c4776089"]
+= MetaData.Schema.D20.A2 "ErpSalesEvents"
 - MetaData.Schema.EG1.B6
 - MetaData.Schema.EG1.BK29
 - MetaData.Schema.EG1.BK30
 - MetaData.Schema.D1
-- MetaData.Schema.D20
+- MetaData.Schema.D20.A5
+- MetaData.Schema.D20.FA4
+- MetaData.Schema.D20.FA5
+- MetaData.Schema.D20.FA6
+- MetaData.Schema.D20.FA7
+- MetaData.Schema.D20.FA11
+- MetaData.Schema.D20.FA12
+- MetaData.Schema.D20.FA15
 + MetaData.Schema.B7 false
 + MetaData.Schema.D2.["ae0e45ca-c495-4fe7-a39d-3ab7278e1617"].E16 false
 + MetaData.Schema.D2.["e80190a5-03b2-4095-90f7-a193a960adee"].E16 false

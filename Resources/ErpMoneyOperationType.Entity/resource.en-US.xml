@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Money operation type" />
+			<Item Name="Columns.ErpDirection.Caption" Value="Direction" />
+			<Item Name="Columns.ErpRegisterInProfit.Caption" Value="Register in profit" />
+		</Items>
+	</Group>
+</Resources>

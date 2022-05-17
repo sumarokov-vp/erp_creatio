@@ -3,7 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Mutual settlements" />
-			<Item Name="Columns.ErpAccount.Caption" Value="Company" />
+			<Item Name="Columns.ErpAccount.Caption" Value="Account" />
 			<Item Name="Columns.ErpAccountingAmount.Caption" Value="Accounting amount" />
 			<Item Name="Columns.ErpAccountingCurrency.Caption" Value="Accounting currency" />
 			<Item Name="Columns.ErpAmount.Caption" Value="Amount" />

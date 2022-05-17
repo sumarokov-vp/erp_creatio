@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Erp sale executor" />
 			<Item Name="LocalizableStrings.Caption.Value" Value="Erp sale executor" />
+			<Item Name="LocalizableStrings.Tabf9476bd7TabLabelTabCaption.Value" Value="Links" />
 		</Items>
 	</Group>
 </Resources>
