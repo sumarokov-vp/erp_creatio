@@ -113,6 +113,31 @@ define("ErpMoney1Page", [], function() {
 						}
 					]
 				}
+			},
+			"ErpProfitSection": {
+				"5518cadf-76e0-411d-9774-47c27d70a28a": {
+					"uId": "5518cadf-76e0-411d-9774-47c27d70a28a",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ErpOperationType",
+								"attributePath": "ErpRegisterInProfit"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
 			}
 		}/**SCHEMA_BUSINESS_RULES*/,
 		methods: {},
@@ -249,7 +274,7 @@ define("ErpMoney1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "LOOKUP5dc98eec-d377-414b-900a-f5e0de47bc6b",
+				"name": "LOOKUP738f97e0-f7f0-4397-ae6c-cc354fb6ae6d",
 				"values": {
 					"layout": {
 						"colSpan": 24,
@@ -258,13 +283,32 @@ define("ErpMoney1Page", [], function() {
 						"row": 7,
 						"layoutName": "ProfileContainer"
 					},
+					"bindTo": "ErpProfitSection",
+					"enabled": true,
+					"contentType": 5
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 7
+			},
+			{
+				"operation": "insert",
+				"name": "LOOKUP5dc98eec-d377-414b-900a-f5e0de47bc6b",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 8,
+						"layoutName": "ProfileContainer"
+					},
 					"bindTo": "ErpAsset",
 					"enabled": true,
 					"contentType": 3
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
-				"index": 7
+				"index": 8
 			},
 			{
 				"operation": "insert",
@@ -274,7 +318,7 @@ define("ErpMoney1Page", [], function() {
 						"colSpan": 24,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 8,
+						"row": 9,
 						"layoutName": "ProfileContainer"
 					},
 					"bindTo": "ErpDestinationAsset",
@@ -283,7 +327,7 @@ define("ErpMoney1Page", [], function() {
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
-				"index": 8
+				"index": 9
 			},
 			{
 				"operation": "insert",

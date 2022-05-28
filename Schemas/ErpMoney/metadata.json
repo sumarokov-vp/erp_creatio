@@ -212,7 +212,19 @@
   "E17": "ErpOperationTypeId",
   "E18": "ErpOperationTypeName"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","79e0bfc9-1bed-45b6-bb3a-48bcd5def345","aad8aa30-e8ac-41fd-abd3-d37661c0f420","169696fc-7f91-486a-a346-1f2277d69f73","54abf616-574a-467d-9ee4-651f3a87064a","cea42371-cbc1-47b9-80db-ba4acc020e5e","d189d00b-0184-4401-bf47-b196659f8b9a","94c7c55c-b13f-4154-842e-7a1e40f0fafe","2817018f-0102-4512-a1b2-68988762842a","9473d965-0e00-4bac-ab51-2f1409a530f7","0d06e4c5-0e17-4755-9d9f-ced694337c97","8931a34e-9339-43e7-8570-7e725011111e","5f47331f-882f-4f78-8d46-d4af044242ef","b14bf6de-adff-44f5-2d89-a234625f58f1","77b4cc90-d826-f146-6907-cc2d6dd9962d","446fc1e1-9435-4b50-f38a-5a72c17fb801"]
++ MetaData.Schema.D2 {
+  "UId": "fd1fdf3e-6683-424e-aad6-c1bca3dc2863",
+  "A2": "ErpProfitSection",
+  "A3": "f37db32e-1bb4-4439-9a30-136a772ce062",
+  "A4": "f37db32e-1bb4-4439-9a30-136a772ce062",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "600b9d53-a88d-4e57-bc6d-eff1267ca8ca",
+  "E6": true,
+  "E17": "ErpProfitSectionId",
+  "E18": "ErpProfitSectionName"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","79e0bfc9-1bed-45b6-bb3a-48bcd5def345","aad8aa30-e8ac-41fd-abd3-d37661c0f420","169696fc-7f91-486a-a346-1f2277d69f73","54abf616-574a-467d-9ee4-651f3a87064a","cea42371-cbc1-47b9-80db-ba4acc020e5e","d189d00b-0184-4401-bf47-b196659f8b9a","94c7c55c-b13f-4154-842e-7a1e40f0fafe","2817018f-0102-4512-a1b2-68988762842a","9473d965-0e00-4bac-ab51-2f1409a530f7","0d06e4c5-0e17-4755-9d9f-ced694337c97","8931a34e-9339-43e7-8570-7e725011111e","5f47331f-882f-4f78-8d46-d4af044242ef","b14bf6de-adff-44f5-2d89-a234625f58f1","77b4cc90-d826-f146-6907-cc2d6dd9962d","446fc1e1-9435-4b50-f38a-5a72c17fb801","fd1fdf3e-6683-424e-aad6-c1bca3dc2863"]
 = MetaData.Schema.D20.A2 "ErpMoneyEvents"
 - MetaData.Schema.EG1.B6
 - MetaData.Schema.EG1.BK29

@@ -15,6 +15,7 @@
 			<Item Name="Columns.ErpName.Caption" Value="Name" />
 			<Item Name="Columns.ErpNotes.Caption" Value="Notes" />
 			<Item Name="Columns.ErpOperationType.Caption" Value="Operation type" />
+			<Item Name="Columns.ErpProfitSection.Caption" Value="Profit section" />
 			<Item Name="Columns.ErpRegistered.Caption" Value="Registered" />
 			<Item Name="Columns.ErpReregister.Caption" Value="Reregister" />
 			<Item Name="Columns.ErpSale.Caption" Value="Sale" />
