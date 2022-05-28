@@ -2,7 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Product in receipt" />
+			<Item Name="Caption" Value="Detail schema: &quot;Product in receipt&quot;" />
 			<Item Name="LocalizableStrings.Caption.Value" Value="Product in receipt" />
 		</Items>
 	</Group>

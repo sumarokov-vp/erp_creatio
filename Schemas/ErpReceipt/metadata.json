@@ -119,7 +119,23 @@
   "E17": "ErpStockId",
   "E18": "ErpStockName"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","b7ea7b60-c0c4-4344-9563-a282a51bff4f","a13396da-789f-4f74-bc38-adfb61db927c","30655258-8333-46e4-a251-c7abdbe4290b","d450093f-f39f-497e-9897-b96cf2b7a4a5","9d7e9c6b-1f20-430e-a785-ad3d05fae6b5","c1535103-ce4b-4bcb-93bc-20da606a0bd9","df797bb5-0fd0-4391-920e-626067947f6c","16903903-cc7f-419a-8ba3-f7ea60ee08c7","70846820-dcec-4e19-9add-f18a9108cdde","0b2f84a3-4225-fd99-f212-b8fb9395b09d"]
++ MetaData.Schema.D2 {
+  "UId": "cc75bc2b-8df4-7130-bb44-abe9c7eac03d",
+  "A2": "ErpTotal",
+  "A3": "af5dce53-edd1-4911-a121-20f3fbe82230",
+  "A4": "af5dce53-edd1-4911-a121-20f3fbe82230",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
++ MetaData.Schema.D2 {
+  "UId": "851a5c4e-e541-189b-54d4-881dd9aae598",
+  "A2": "ErpReregister",
+  "A3": "af5dce53-edd1-4911-a121-20f3fbe82230",
+  "A4": "af5dce53-edd1-4911-a121-20f3fbe82230",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "90b65bf8-0ffc-4141-8779-2420877af907"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","b7ea7b60-c0c4-4344-9563-a282a51bff4f","a13396da-789f-4f74-bc38-adfb61db927c","30655258-8333-46e4-a251-c7abdbe4290b","d450093f-f39f-497e-9897-b96cf2b7a4a5","9d7e9c6b-1f20-430e-a785-ad3d05fae6b5","c1535103-ce4b-4bcb-93bc-20da606a0bd9","df797bb5-0fd0-4391-920e-626067947f6c","16903903-cc7f-419a-8ba3-f7ea60ee08c7","70846820-dcec-4e19-9add-f18a9108cdde","0b2f84a3-4225-fd99-f212-b8fb9395b09d","cc75bc2b-8df4-7130-bb44-abe9c7eac03d","851a5c4e-e541-189b-54d4-881dd9aae598"]
 = MetaData.Schema.D20.A2 "ErpReceiptEvents"
 - MetaData.Schema.EG1.B6
 - MetaData.Schema.EG1.BK29

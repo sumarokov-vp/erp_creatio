@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Product in receipt" />
 			<Item Name="LocalizableStrings.Caption.Value" Value="Product in receipt" />
+			<Item Name="LocalizableStrings.Tabe471cf51TabLabelTabCaption.Value" Value="Links" />
 		</Items>
 	</Group>
 </Resources>

@@ -12,7 +12,9 @@
 			<Item Name="Columns.ErpName.Caption" Value="Name" />
 			<Item Name="Columns.ErpNotes.Caption" Value="Notes" />
 			<Item Name="Columns.ErpRegistered.Caption" Value="Registered" />
+			<Item Name="Columns.ErpReregister.Caption" Value="Reregister" />
 			<Item Name="Columns.ErpStock.Caption" Value="Stock" />
+			<Item Name="Columns.ErpTotal.Caption" Value="Total" />
 		</Items>
 	</Group>
 </Resources>

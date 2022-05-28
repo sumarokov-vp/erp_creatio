@@ -154,7 +154,19 @@
   "E17": "ErpProductInReceiptId",
   "E18": "ErpProductInReceiptErpName"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","c40da55f-8d79-43bd-863d-337758c41a7f","1b21c94a-9dce-4d36-a7b0-be1300068f42","bc7fca07-8f0f-49be-bef5-2bb09423957a","a07f43d0-616e-4ef9-8329-3d8675f8a70a","42e80f48-42f7-4250-a5f3-dacd3c38e241","e7b9c1df-981d-4a25-8d21-adb7a5985f01","18d7855d-0af7-46d0-9257-cbf37db559c6","8c994bf1-d50d-4023-ba55-e771f2279741","f9a3a559-d61c-4c11-9b0c-da4e8f2ab661","42eb37d6-ffe9-47d9-9f4f-748edd72fa8e","48244ce8-3265-49cc-aa36-fd15c15eed69","0147322c-41f0-70d6-defa-5ae463e8ddc7","ef42db94-239d-d3af-3610-9041e027ec2b"]
++ MetaData.Schema.D2 {
+  "UId": "3e5fa9fe-4be4-590d-4839-bbcc3d9e35c5",
+  "A2": "ErpCurrency",
+  "A3": "84a7217e-02b2-4236-bbd2-32b00966dab8",
+  "A4": "84a7217e-02b2-4236-bbd2-32b00966dab8",
+  "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "2d36aca6-5b8c-4122-9648-baf3b7f8256d",
+  "E6": true,
+  "E17": "ErpCurrencyId",
+  "E18": "ErpCurrencyName"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","c40da55f-8d79-43bd-863d-337758c41a7f","1b21c94a-9dce-4d36-a7b0-be1300068f42","bc7fca07-8f0f-49be-bef5-2bb09423957a","a07f43d0-616e-4ef9-8329-3d8675f8a70a","42e80f48-42f7-4250-a5f3-dacd3c38e241","e7b9c1df-981d-4a25-8d21-adb7a5985f01","18d7855d-0af7-46d0-9257-cbf37db559c6","8c994bf1-d50d-4023-ba55-e771f2279741","f9a3a559-d61c-4c11-9b0c-da4e8f2ab661","42eb37d6-ffe9-47d9-9f4f-748edd72fa8e","48244ce8-3265-49cc-aa36-fd15c15eed69","0147322c-41f0-70d6-defa-5ae463e8ddc7","ef42db94-239d-d3af-3610-9041e027ec2b","3e5fa9fe-4be4-590d-4839-bbcc3d9e35c5"]
 = MetaData.Schema.D20.A2 "ErpStockEvents"
 - MetaData.Schema.EG1.B6
 - MetaData.Schema.EG1.BK29

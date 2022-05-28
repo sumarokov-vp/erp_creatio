@@ -37,7 +37,46 @@ define("ErpMoney1Page", [], function() {
 				}
 			}
 		}/**SCHEMA_DETAILS*/,
-		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
+		businessRules: /**SCHEMA_BUSINESS_RULES*/{
+			"ErpOperationType": {
+				"09db11e0-2bdf-4cf7-a4be-3c4cc5a920c3": {
+					"uId": "09db11e0-2bdf-4cf7-a4be-3c4cc5a920c3",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 1,
+					"baseAttributePatch": "ErpDirection",
+					"comparisonType": 3,
+					"autoClean": false,
+					"autocomplete": false,
+					"type": 1,
+					"attribute": "ErpDirection"
+				}
+			},
+			"ErpDestinationAsset": {
+				"55c69432-cf95-4842-a7ec-7f8c334f3a3d": {
+					"uId": "55c69432-cf95-4842-a7ec-7f8c334f3a3d",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ErpDirection"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": "1b43fb42-82b2-4498-af23-c1ab7bb6f588",
+								"dataValueType": 10
+							}
+						}
+					]
+				}
+			}
+		}/**SCHEMA_BUSINESS_RULES*/,
 		methods: {},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
@@ -126,7 +165,7 @@ define("ErpMoney1Page", [], function() {
 					},
 					"bindTo": "ErpCurrency",
 					"enabled": true,
-					"contentType": 5
+					"contentType": 3
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
@@ -145,7 +184,7 @@ define("ErpMoney1Page", [], function() {
 					},
 					"bindTo": "ErpDirection",
 					"enabled": true,
-					"contentType": 5
+					"contentType": 3
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
@@ -164,7 +203,7 @@ define("ErpMoney1Page", [], function() {
 					},
 					"bindTo": "ErpOperationType",
 					"enabled": true,
-					"contentType": 5
+					"contentType": 3
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
@@ -183,7 +222,7 @@ define("ErpMoney1Page", [], function() {
 					},
 					"bindTo": "ErpAsset",
 					"enabled": true,
-					"contentType": 5
+					"contentType": 3
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
@@ -202,7 +241,7 @@ define("ErpMoney1Page", [], function() {
 					},
 					"bindTo": "ErpDestinationAsset",
 					"enabled": true,
-					"contentType": 5
+					"contentType": 3
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",

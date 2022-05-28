@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Stock register" />
 			<Item Name="Columns.ErpContractor.Caption" Value="Contractor" />
+			<Item Name="Columns.ErpCurrency.Caption" Value="Currency" />
 			<Item Name="Columns.ErpDate.Caption" Value="Date" />
 			<Item Name="Columns.ErpName.Caption" Value="Name" />
 			<Item Name="Columns.ErpNotes.Caption" Value="Notes" />
