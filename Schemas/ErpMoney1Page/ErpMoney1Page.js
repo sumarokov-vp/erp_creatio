@@ -75,6 +75,44 @@ define("ErpMoney1Page", [], function() {
 						}
 					]
 				}
+			},
+			"ErpAccount": {
+				"3819d0b8-21b9-4b1f-a1b7-44cc20a7850c": {
+					"uId": "3819d0b8-21b9-4b1f-a1b7-44cc20a7850c",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 1,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 1,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ErpContact"
+							}
+						}
+					]
+				}
+			},
+			"ErpContact": {
+				"1a240368-8e32-4a43-87e8-2c778255d699": {
+					"uId": "1a240368-8e32-4a43-87e8-2c778255d699",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 1,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 1,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ErpAccount"
+							}
+						}
+					]
+				}
 			}
 		}/**SCHEMA_BUSINESS_RULES*/,
 		methods: {},
