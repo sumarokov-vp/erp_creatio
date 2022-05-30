@@ -62,7 +62,8 @@ BEGIN
                 contractor_id => NEW."ErpContractorId",
                 currency_id => NEW."ErpCurrencyId",
                 dt => NEW."ErpDate",
-                money_id => NEW."Id"
+                money_id => NEW."Id",
+                section_id => New."ErpProfitSectionId"
             );
         END IF;
 
