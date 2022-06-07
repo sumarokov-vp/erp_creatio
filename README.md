@@ -22,7 +22,7 @@ cd ~/creatio/
 COMPlus_ThreadPool_ForceMinWorkerThreads=100 dotnet Terrasoft.WebHost.dll
 ```
 
-Create package "ERP" with dependencies:
+Create package "ERP" with dependencies (you can use option "Compile into a separate assembly"):
 - NUI
 - Base
 - UIv2
@@ -53,7 +53,7 @@ vim install_db_triggers/database.py
 Prepare python environment:
 ```bash
 cd ~/creatio/Terrasoft.Configuration/Pkg/ERP/install_db_triggers
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
