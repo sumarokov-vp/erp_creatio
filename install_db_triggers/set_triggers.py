@@ -30,7 +30,6 @@ file_list=[
     'install_db_triggers/Sale/before.sql',
     'install_db_triggers/Sale/before_delete.sql',
     'install_db_triggers/Sale/triggers.sql',
-    'install_db_triggers/Sale/delete_sale.sql',
     'install_db_triggers/Money/naming.sql',
     'install_db_triggers/Money/reregister.sql',
     'install_db_triggers/Money/after.sql',
