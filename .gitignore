@@ -3,3 +3,4 @@ database.py
 venv/
 .vscode/
 install_db_triggers/__pycache__/
+SLERP.csproj
