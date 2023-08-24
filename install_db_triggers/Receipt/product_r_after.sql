@@ -35,7 +35,7 @@ BEGIN
             WHERE x."Id" = NEW."ErpReceiptId";
 
             PERFORM erp_stock_registration(
-                amount => NEW."ErpTotal" ,
+                --amount => NEW."ErpTotal" ,
                 contractor_id => _contractor_id,
                 dt => _dt,
                 price => NEW."ErpPrice",
