@@ -122,6 +122,40 @@ define("ErpReceipt1Page", [], function() {
 			},
 			{
 				"operation": "insert",
+				"name": "ErpContactb66aa10b-7baa-4531-9542-b4a8877c0f75",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 4,
+						"layoutName": "Header"
+					},
+					"bindTo": "ErpContact"
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "ErpAccountac1f70cf-f454-42e5-b597-252aeebf5f6e",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 5,
+						"layoutName": "Header"
+					},
+					"bindTo": "ErpAccount"
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
 				"name": "Tab749c3ed2TabLabel",
 				"values": {
 					"caption": {
