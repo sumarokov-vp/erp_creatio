@@ -1,0 +1,4 @@
+/root/creatio/Terrasoft.Configuration/Pkg/SLERP/Files/obj/Release/SLERP.csprojAssemblyReference.cache
+/root/creatio/Terrasoft.Configuration/Pkg/SLERP/Files/obj/Release/SLERP.AssemblyInfoInputs.cache
+/root/creatio/Terrasoft.Configuration/Pkg/SLERP/Files/obj/Release/SLERP.AssemblyInfo.cs
+/root/creatio/Terrasoft.Configuration/Pkg/SLERP/Files/obj/Release/SLERP.csproj.CoreCompileInputs.cache

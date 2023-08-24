@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mJvqibqhKNEgC7/wwGIyI4jpT3Yw4Ep2Qz+d4zCy96SmFRiCO/uEyywieoQ6LDgBNNG8ZZjmohEx9z/luyeFqA==",
+  "dgSpecHash": "uAgHFvq/WGFF5Enb/Dj9Qviuhes2M9n3pocQEqzcFrj+5MZQ0XKqfcTayZ1lMFcTnF5FMKzcJ3v811AHo266Xg==",
   "success": true,
-  "projectFilePath": "/root/creatio/Terrasoft.Configuration/Pkg/ERP/Files/ERP.csproj",
+  "projectFilePath": "/root/creatio/Terrasoft.Configuration/Pkg/SLERP/Files/SLERP.csproj",
   "expectedPackageFiles": [
     "/root/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/root/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
