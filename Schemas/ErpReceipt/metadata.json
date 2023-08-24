@@ -1,7 +1,7 @@
 = MetaData.Schema.UId "af5dce53-edd1-4911-a121-20f3fbe82230"
 = MetaData.Schema.A2 "ErpReceipt"
 = MetaData.Schema.A5 "feafd31b-fe52-48ae-95ae-9a5b451df099"
-= MetaData.Schema.B6 "ab45cee9-ba91-f8c9-4af3-755c92bfee24"
+= MetaData.Schema.B6 "6e76f5fd-ca72-2743-c1d3-9f957f0407cf"
 = MetaData.Schema.B8 "7.18.5.1501"
 = MetaData.Schema.EG1.UId "d414ab54-7537-4a59-8c2d-51a95fca69b8"
 = MetaData.Schema.EG1.A2 "ErpReceiptEventsProcess"
@@ -68,6 +68,7 @@
   "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
   "S4": "2d36aca6-5b8c-4122-9648-baf3b7f8256d",
   "E6": true,
+  "E20": true,
   "E17": "ErpCurrencyId",
   "E18": "ErpCurrencyName"
 }
@@ -116,6 +117,7 @@
   "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
   "S4": "c7f389ad-bb2b-464c-a939-fbaeea96e175",
   "E6": true,
+  "E20": true,
   "E17": "ErpStockId",
   "E18": "ErpStockName"
 }

@@ -51,111 +51,74 @@ define("ErpReceipt1Page", [], function() {
 		diff: /**SCHEMA_DIFF*/[
 			{
 				"operation": "insert",
-				"name": "ErpName3a4c4490-180a-40ff-b75a-62d810ac7b4f",
+				"name": "ErpRegistered573cc17e-1a99-4862-89f0-1a69f233c876",
 				"values": {
 					"layout": {
-						"colSpan": 24,
+						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
 						"row": 0,
-						"layoutName": "ProfileContainer"
+						"layoutName": "Header"
 					},
-					"bindTo": "ErpName",
-					"enabled": true
+					"bindTo": "ErpRegistered"
 				},
-				"parentName": "ProfileContainer",
+				"parentName": "Header",
 				"propertyName": "items",
 				"index": 0
 			},
 			{
 				"operation": "insert",
-				"name": "BOOLEAN14e6ff62-2514-4d75-9f4d-6294c74d501b",
+				"name": "ErpDate255b31ed-bb79-4375-ac97-dcec0f47546e",
 				"values": {
 					"layout": {
-						"colSpan": 24,
+						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
 						"row": 1,
-						"layoutName": "ProfileContainer"
+						"layoutName": "Header"
 					},
-					"bindTo": "ErpRegistered",
-					"enabled": true
+					"bindTo": "ErpDate"
 				},
-				"parentName": "ProfileContainer",
+				"parentName": "Header",
 				"propertyName": "items",
 				"index": 1
 			},
 			{
 				"operation": "insert",
-				"name": "DATETIME921234eb-b5df-4c22-9302-ae4849bf4205",
+				"name": "ErpTotal379bc4c0-af5c-4249-bd0f-f75ba0dbb45f",
 				"values": {
 					"layout": {
-						"colSpan": 24,
+						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
 						"row": 2,
-						"layoutName": "ProfileContainer"
+						"layoutName": "Header"
 					},
-					"bindTo": "ErpDate",
-					"enabled": true
+					"bindTo": "ErpTotal",
+					"enabled": false
 				},
-				"parentName": "ProfileContainer",
+				"parentName": "Header",
 				"propertyName": "items",
 				"index": 2
 			},
 			{
 				"operation": "insert",
-				"name": "INTEGER6e8f64a8-dea9-46da-9715-4c0b76a5bc59",
+				"name": "ErpCurrency709d3da0-993a-4fb6-a5f6-5f54ff8cca44",
 				"values": {
 					"layout": {
-						"colSpan": 24,
+						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
 						"row": 3,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ErpCode",
-					"enabled": false
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 3
-			},
-			{
-				"operation": "insert",
-				"name": "LOOKUP41c1a7a0-c031-4c23-a42f-0c3b9df349e5",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 4,
-						"layoutName": "ProfileContainer"
+						"layoutName": "Header"
 					},
 					"bindTo": "ErpCurrency",
 					"enabled": true,
-					"contentType": 5
+					"contentType": 3
 				},
-				"parentName": "ProfileContainer",
+				"parentName": "Header",
 				"propertyName": "items",
-				"index": 4
-			},
-			{
-				"operation": "insert",
-				"name": "ErpStocke61ed27b-4913-46e5-8f8f-141ecfd45008",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 5,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ErpStock"
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 5
+				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -173,6 +136,51 @@ define("ErpReceipt1Page", [], function() {
 			},
 			{
 				"operation": "insert",
+				"name": "Tab749c3ed2TabLabelGroupd98258ae",
+				"values": {
+					"caption": {
+						"bindTo": "Resources.Strings.Tab749c3ed2TabLabelGroupd98258aeGroupCaption"
+					},
+					"itemType": 15,
+					"markerValue": "added-group",
+					"items": []
+				},
+				"parentName": "Tab749c3ed2TabLabel",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "Tab749c3ed2TabLabelGridLayoutbdd8319d",
+				"values": {
+					"itemType": 0,
+					"items": []
+				},
+				"parentName": "Tab749c3ed2TabLabelGroupd98258ae",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ErpStocke524ba69-3a77-4cfd-96a2-9285430dee2e",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 0,
+						"layoutName": "Tab749c3ed2TabLabelGridLayoutbdd8319d"
+					},
+					"bindTo": "ErpStock",
+					"enabled": true,
+					"contentType": 3
+				},
+				"parentName": "Tab749c3ed2TabLabelGridLayoutbdd8319d",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "ErpSchema3e46a19cDetailb178d7e5",
 				"values": {
 					"itemType": 2,
@@ -180,7 +188,7 @@ define("ErpReceipt1Page", [], function() {
 				},
 				"parentName": "Tab749c3ed2TabLabel",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
