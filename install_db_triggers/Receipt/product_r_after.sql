@@ -44,7 +44,7 @@ BEGIN
                 stock_id => _stock_id,
                 product_in_receipt_id => NEW."Id",
                 receipt_id => NEW."ErpReceiptId",
-                currency => NEW."ErpCurrency"
+                currency => NEW."ErpCurrencyId"
             );
         END IF;
 
