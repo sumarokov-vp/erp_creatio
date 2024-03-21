@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "78b82b6c-ef1e-4b5b-8d38-3deaf3429d3b",
+    "Name": "Schema2d3d31f3Detail",
+    "ModifiedOnUtc": "\/Date(1711053887000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Detail schema: \"Employee in salary plan\""
+  }
+}

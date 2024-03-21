@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Edit page: &quot;Salary plan&quot;" />
+			<Item Name="LocalizableStrings.Schema2d3d31f3Detail7ea345e5DetailCaptionOnPage.Value" Value="Employee in salary plan" />
+			<Item Name="LocalizableStrings.Tabde44a4daTabLabelTabCaption.Value" Value="Employees" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Employee in salary plan" />
+			<Item Name="Columns.ErpContact.Caption" Value="Contact" />
+			<Item Name="Columns.ErpPercent.Caption" Value="Percent" />
+			<Item Name="Columns.ErpPercent.Description" Value="Percent from the total amount of sale for salary apply" />
+			<Item Name="Columns.ErpSalaryPlan.Caption" Value="Salary plan" />
+			<Item Name="Columns.Name.Caption" Value="Name" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>

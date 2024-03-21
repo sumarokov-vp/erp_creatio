@@ -1,0 +1,24 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "83041178-d545-4a2b-a5ed-0e90319d9ed4"
+        },
+        {
+          "SchemaColumnUId": "49ad8ee2-65a6-4cdd-b8f6-85c2f10a54dc",
+          "Value": "Employee in salary plan"
+        },
+        {
+          "SchemaColumnUId": "8585929c-62ae-4673-ae8d-bb37f87e5144",
+          "Value": "78b82b6c-ef1e-4b5b-8d38-3deaf3429d3b"
+        },
+        {
+          "SchemaColumnUId": "631e7238-2751-4a21-b6d6-9f1ac0c84f95",
+          "Value": "a092a43f-3a63-4bfe-bdb6-018cbeddd707"
+        }
+      ]
+    }
+  ]
+}
