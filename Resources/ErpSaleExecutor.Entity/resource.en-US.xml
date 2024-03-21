@@ -7,6 +7,7 @@
 			<Item Name="Columns.ErpContact.Caption" Value="Contact" />
 			<Item Name="Columns.ErpCurrency.Caption" Value="Currency" />
 			<Item Name="Columns.ErpName.Caption" Value="Name" />
+			<Item Name="Columns.ErpPercent.Caption" Value="Percent" />
 			<Item Name="Columns.ErpRegistered.Caption" Value="Registered" />
 			<Item Name="Columns.ErpSale.Caption" Value="ERP sales" />
 		</Items>

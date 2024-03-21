@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/root/creatio/Terrasoft.Configuration/Pkg/SLERP/Files/SLERP.csproj": {}
+    "/creatio/Terrasoft.Configuration/Pkg/SLERP/Files/SLERP.csproj": {}
   },
   "projects": {
-    "/root/creatio/Terrasoft.Configuration/Pkg/SLERP/Files/SLERP.csproj": {
+    "/creatio/Terrasoft.Configuration/Pkg/SLERP/Files/SLERP.csproj": {
       "version": "7.18.2.1235",
       "restore": {
-        "projectUniqueName": "/root/creatio/Terrasoft.Configuration/Pkg/SLERP/Files/SLERP.csproj",
+        "projectUniqueName": "/creatio/Terrasoft.Configuration/Pkg/SLERP/Files/SLERP.csproj",
         "projectName": "SLERP",
-        "projectPath": "/root/creatio/Terrasoft.Configuration/Pkg/SLERP/Files/SLERP.csproj",
+        "projectPath": "/creatio/Terrasoft.Configuration/Pkg/SLERP/Files/SLERP.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/root/creatio/Terrasoft.Configuration/Pkg/SLERP/Files/obj/",
+        "outputPath": "/creatio/Terrasoft.Configuration/Pkg/SLERP/Files/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
