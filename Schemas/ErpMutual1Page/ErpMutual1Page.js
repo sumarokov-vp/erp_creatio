@@ -324,6 +324,68 @@ define("ErpMutual1Page", [], function() {
 			},
 			{
 				"operation": "insert",
+				"name": "Tabad13aac2TabLabelGroup27cd1cd3",
+				"values": {
+					"caption": {
+						"bindTo": "Resources.Strings.Tabad13aac2TabLabelGroup27cd1cd3GroupCaption"
+					},
+					"itemType": 15,
+					"markerValue": "added-group",
+					"items": []
+				},
+				"parentName": "Tabad13aac2TabLabel",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "Tabad13aac2TabLabelGridLayoute39c3160",
+				"values": {
+					"itemType": 0,
+					"items": []
+				},
+				"parentName": "Tabad13aac2TabLabelGroup27cd1cd3",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ErpAccountingAmount9ce67e27-281c-47fb-a142-a49c2b8fffb3",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 0,
+						"layoutName": "Tabad13aac2TabLabelGridLayoute39c3160"
+					},
+					"bindTo": "ErpAccountingAmount"
+				},
+				"parentName": "Tabad13aac2TabLabelGridLayoute39c3160",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ErpAccountingCurrency6a9b6280-d347-4255-898c-72c558087c11",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 1,
+						"layoutName": "Tabad13aac2TabLabelGridLayoute39c3160"
+					},
+					"bindTo": "ErpAccountingCurrency",
+					"enabled": true,
+					"contentType": 3
+				},
+				"parentName": "Tabad13aac2TabLabelGridLayoute39c3160",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
 				"name": "NotesAndFilesTab",
 				"values": {
 					"caption": {

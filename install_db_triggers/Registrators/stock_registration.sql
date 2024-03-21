@@ -27,7 +27,7 @@ BEGIN
         "ErpStockLookupInstanceId",
         "ErpProductInReceiptId",
         "ErpProductInSaleId",
-        "ErpCurrency"
+        "ErpCurrencyId"
     ) VALUES
         (contractor_id, dt, price,
         product_id, quantity, receipt_id,

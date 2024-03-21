@@ -8,7 +8,7 @@
       "B1": [],
       "B2": [],
       "B3": [],
-      "B6": "ab45cee9-ba91-f8c9-4af3-755c92bfee24",
+      "B6": "6e76f5fd-ca72-2743-c1d3-9f957f0407cf",
       "B8": "7.18.5.1501",
       "IQ1": "https://openexchangerates.org",
       "IQ2": 1,
@@ -62,6 +62,20 @@
                 "UId": "942bd6a1-12dd-4d10-9ad4-ae086af1dc8e",
                 "A2": "ErpRub",
                 "IU1": "$.rates.RUB",
+                "IU2": "Float",
+                "IU7": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "8acb1eea-a0ed-4b2a-881c-5402abe7b9c1",
+                "A2": "ErpKzt",
+                "IU1": "$.rates.KZT",
                 "IU2": "Float",
                 "IU7": true,
                 "IU8": "item",

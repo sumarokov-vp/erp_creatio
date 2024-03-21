@@ -1,7 +1,7 @@
 = MetaData.Schema.UId "7f161ea4-773a-4165-9173-be3193659e58"
 = MetaData.Schema.A2 "ErpSales"
 = MetaData.Schema.A5 "feafd31b-fe52-48ae-95ae-9a5b451df099"
-= MetaData.Schema.B6 "ab45cee9-ba91-f8c9-4af3-755c92bfee24"
+= MetaData.Schema.B6 "6e76f5fd-ca72-2743-c1d3-9f957f0407cf"
 = MetaData.Schema.B8 "7.18.5.1501"
 = MetaData.Schema.EG1.UId "a9b41a38-bc76-4027-9ecc-ef2a047e8f9b"
 = MetaData.Schema.EG1.A2 "ErpSalesEventsProcess"
@@ -24,7 +24,11 @@
   "A4": "7f161ea4-773a-4165-9173-be3193659e58",
   "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
   "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
-  "E5": false
+  "E5": false,
+  "E12": {
+    "FB1": 1,
+    "FB2": "123"
+  }
 }
 + MetaData.Schema.D2 {
   "UId": "6b199dc9-ab18-41f6-9fc8-f85f4d3e0e56",

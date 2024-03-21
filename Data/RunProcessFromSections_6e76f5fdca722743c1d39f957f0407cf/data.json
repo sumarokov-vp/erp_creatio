@@ -1,0 +1,29 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "fd4bcafd-0982-47fc-9106-97dd14186129"
+        },
+        {
+          "SchemaColumnUId": "4420cc5f-5a43-490b-b583-f8572ac29dce",
+          "Value": "27bc9bbe-686f-4a09-993b-fe4e06ed2e1c",
+          "DisplayValue": "Receipts"
+        },
+        {
+          "SchemaColumnUId": "a9f680eb-bc67-4aac-919e-0ad9f1000690",
+          "Value": "a129d110-d713-4ce1-850c-f446dd5cfea2"
+        },
+        {
+          "SchemaColumnUId": "aadb966f-e2f2-4239-b56f-51ba5fdf0533",
+          "Value": 1
+        },
+        {
+          "SchemaColumnUId": "18fd508a-8e32-454d-bd8a-82a9d4028ace",
+          "Value": "84764d3d-a8cb-47ab-ad86-a536bfc1e5e2"
+        }
+      ]
+    }
+  ]
+}

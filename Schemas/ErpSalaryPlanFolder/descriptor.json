@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "2602cfec-7df6-4818-ac72-1257c24acd81",
+    "Name": "ErpSalaryPlanFolder",
+    "ModifiedOnUtc": "\/Date(1711052831000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Salary plan folder"
+  }
+}

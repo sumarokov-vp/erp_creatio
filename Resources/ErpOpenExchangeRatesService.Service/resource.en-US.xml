@@ -6,6 +6,7 @@
 			<Item Name="ServiceMethods.ErpMethod1.Caption" Value="latest.json" />
 			<Item Name="ServiceMethods.ErpMethod1.Request.Parameters.ErpAppid.Caption" Value="App_id" />
 			<Item Name="ServiceMethods.ErpMethod1.Response.Parameters.ErpBase.Caption" Value="Base" />
+			<Item Name="ServiceMethods.ErpMethod1.Response.Parameters.ErpKzt.Caption" Value="KZT" />
 			<Item Name="ServiceMethods.ErpMethod1.Response.Parameters.ErpRub.Caption" Value="RUB" />
 		</Items>
 	</Group>

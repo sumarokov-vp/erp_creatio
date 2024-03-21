@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "af5dce53-edd1-4911-a121-20f3fbe82230",
     "Name": "ErpReceipt",
-    "ModifiedOnUtc": "\/Date(1652892264000)\/",
+    "ModifiedOnUtc": "\/Date(1692902384000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"

@@ -1,0 +1,9 @@
+= MetaData.Schema.UId "35d02b8c-975c-43f3-a9a1-ebc61825a400"
+= MetaData.Schema.A2 "ErpReceipt1MiniPage"
+= MetaData.Schema.B6 "6e76f5fd-ca72-2743-c1d3-9f957f0407cf"
+= MetaData.Schema.B8 "7.18.2.1235"
+= MetaData.Schema.HD1 "8e06a577-08e4-424e-bd89-798a34e1b928"
+= MetaData.Schema.HD5 []
+- MetaData.Schema.B7
+- MetaData.Schema.HD12
++ MetaData.Schema.B7 false
