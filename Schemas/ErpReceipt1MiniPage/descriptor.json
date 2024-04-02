@@ -2,13 +2,11 @@
   "Descriptor": {
     "UId": "35d02b8c-975c-43f3-a9a1-ebc61825a400",
     "Name": "ErpReceipt1MiniPage",
-    "ModifiedOnUtc": "\/Date(1692902379000)\/",
+    "ModifiedOnUtc": "\/Date(1692902378000)\/",
     "Parent": {
       "UId": "8e06a577-08e4-424e-bd89-798a34e1b928",
       "Name": "BaseMiniPage"
     },
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "ErpReceipt1MiniPage",
-    "DependsOn": []
+    "Caption": "ErpReceipt1MiniPage"
   }
-}

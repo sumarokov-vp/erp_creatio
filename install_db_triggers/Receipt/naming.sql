@@ -1,6 +1,7 @@
-CREATE OR REPLACE FUNCTION "erp_receipts_naming" (new_receipt "ErpReceipt")
-    RETURNS text
-    AS $$
+CREATE OR REPLACE FUNCTION public.erp_receipts_naming(new_receipt "ErpReceipt")
+ RETURNS text
+ LANGUAGE plpgsql
+AS $function$
 DECLARE
     currency_symbol text;
     customer_name text;
@@ -36,9 +37,7 @@ BEGIN
 
     
     -- Naming
-    RETURN '#' || new_receipt."ErpCode" || ' - ' || customer_name ||
-        ' ' || new_receipt."ErpTotal" || ' ' || currency_symbol;
+    RETURN '#' || COALESCE(new_receipt."ErpCode", 0) || ' - ' || customer_name ||
+        ' ' || COALESCE(new_receipt."ErpTotal", 0) || ' ' || currency_symbol;
 END;
-$$
-LANGUAGE plpgsql;
-
+$function$

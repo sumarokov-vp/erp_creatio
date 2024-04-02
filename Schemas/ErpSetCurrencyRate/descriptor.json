@@ -4,7 +4,5 @@
     "Name": "ErpSetCurrencyRate",
     "ModifiedOnUtc": "\/Date(1712041142000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Set currency rate",
-    "DependsOn": []
+    "Caption": "Set currency rate"
   }
-}

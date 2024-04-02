@@ -35,7 +35,7 @@ BEGIN
             WHERE x."Id" = NEW."ErpReceiptId";
 
             PERFORM erp_stock_registration(
-                amount => NEW."ErpTotal" ,
+                --amount => NEW."ErpTotal" ,
                 contractor_id => _contractor_id,
                 dt => _dt,
                 price => NEW."ErpPrice",
@@ -44,7 +44,7 @@ BEGIN
                 stock_id => _stock_id,
                 product_in_receipt_id => NEW."Id",
                 receipt_id => NEW."ErpReceiptId",
-                currency => NEW."ErpCurrency"
+                currency => NEW."ErpCurrencyId"
             );
         END IF;
 

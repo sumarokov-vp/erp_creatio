@@ -245,6 +245,23 @@ define("ErpSales1Page", [], function() {
 			},
 			{
 				"operation": "insert",
+				"name": "ErpContractordecaddf2-ac07-4d60-af5f-32f5151493c3",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 4,
+						"layoutName": "Tabf7ea2e81TabLabelGridLayoute7652599"
+					},
+					"bindTo": "ErpContractor"
+				},
+				"parentName": "Tabf7ea2e81TabLabelGridLayoute7652599",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
 				"name": "ErpSchema40d15f15Detailaeba3c04",
 				"values": {
 					"itemType": 2,
@@ -256,6 +273,49 @@ define("ErpSales1Page", [], function() {
 			},
 			{
 				"operation": "insert",
+				"name": "Tabf7ea2e81TabLabelGroupb4391531",
+				"values": {
+					"caption": {
+						"bindTo": "Resources.Strings.Tabf7ea2e81TabLabelGroupb4391531GroupCaption"
+					},
+					"itemType": 15,
+					"markerValue": "added-group",
+					"items": []
+				},
+				"parentName": "Tabf7ea2e81TabLabel",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "Tabf7ea2e81TabLabelGridLayout11798e56",
+				"values": {
+					"itemType": 0,
+					"items": []
+				},
+				"parentName": "Tabf7ea2e81TabLabelGroupb4391531",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ErpSalaryPlane861817f-1a82-4e53-b34a-8c873ac026cf",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 0,
+						"layoutName": "Tabf7ea2e81TabLabelGridLayout11798e56"
+					},
+					"bindTo": "ErpSalaryPlan"
+				},
+				"parentName": "Tabf7ea2e81TabLabelGridLayout11798e56",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "ErpSchema458cc01cDetail9f6c1aef",
 				"values": {
 					"itemType": 2,
@@ -263,7 +323,7 @@ define("ErpSales1Page", [], function() {
 				},
 				"parentName": "Tabf7ea2e81TabLabel",
 				"propertyName": "items",
-				"index": 2
+				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -274,7 +334,7 @@ define("ErpSales1Page", [], function() {
 				},
 				"parentName": "Tabf7ea2e81TabLabel",
 				"propertyName": "items",
-				"index": 3
+				"index": 4
 			},
 			{
 				"operation": "insert",

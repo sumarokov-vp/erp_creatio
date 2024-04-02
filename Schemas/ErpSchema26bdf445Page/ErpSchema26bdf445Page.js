@@ -10,6 +10,24 @@ define("ErpSchema26bdf445Page", [], function() {
 		diff: /**SCHEMA_DIFF*/[
 			{
 				"operation": "insert",
+				"name": "BOOLEAN97fedc52-a327-4a06-98cd-0a98b424923f",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 0,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "ErpRegistered",
+					"enabled": true
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "LOOKUP0fb929c8-a5dd-4b79-9e66-555ebe897e5d",
 				"values": {
 					"layout": {
@@ -25,7 +43,7 @@ define("ErpSchema26bdf445Page", [], function() {
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -43,7 +61,7 @@ define("ErpSchema26bdf445Page", [], function() {
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
-				"index": 1
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -62,25 +80,24 @@ define("ErpSchema26bdf445Page", [], function() {
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
-				"index": 2
+				"index": 3
 			},
 			{
 				"operation": "insert",
-				"name": "BOOLEAN97fedc52-a327-4a06-98cd-0a98b424923f",
+				"name": "ErpAddedBySalaryPlan85381a10-df06-42ca-afbb-9fe312ab5508",
 				"values": {
 					"layout": {
 						"colSpan": 24,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 0,
+						"row": 4,
 						"layoutName": "ProfileContainer"
 					},
-					"bindTo": "ErpRegistered",
-					"enabled": true
+					"bindTo": "ErpAddedBySalaryPlan"
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
-				"index": 3
+				"index": 4
 			},
 			{
 				"operation": "insert",

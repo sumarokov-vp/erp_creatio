@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "91763ee4-9512-4b55-8805-b73454636446",
     "Name": "ErpFund",
-    "ModifiedOnUtc": "\/Date(1712044039000)\/",
+    "ModifiedOnUtc": "\/Date(1712044038000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"
@@ -11,4 +11,3 @@
     "Caption": "Fund register",
     "DependsOn": []
   }
-}

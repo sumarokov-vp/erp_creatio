@@ -120,6 +120,23 @@ define("ErpSchema3bcd50b9Page", [], function() {
 			},
 			{
 				"operation": "insert",
+				"name": "ErpNamea4334dde-1f07-4576-bcb3-cee985c015dc",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 0,
+						"layoutName": "Header"
+					},
+					"bindTo": "ErpName"
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "Tab42ce02b6TabLabel",
 				"values": {
 					"caption": {
@@ -217,6 +234,24 @@ define("ErpSchema3bcd50b9Page", [], function() {
 			},
 			{
 				"operation": "insert",
+				"name": "ErpNameadddcef7-44d6-45fd-923f-419597f1c6b4",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 0,
+						"layoutName": "Tabe57891c7TabLabelGridLayout66a85f76"
+					},
+					"bindTo": "ErpName",
+					"enabled": true
+				},
+				"parentName": "Tabe57891c7TabLabelGridLayout66a85f76",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "STRING606887dd-6d7b-4fe0-a591-430dcdc4a857",
 				"values": {
 					"layout": {
@@ -229,24 +264,6 @@ define("ErpSchema3bcd50b9Page", [], function() {
 					"bindTo": "ErpNotes",
 					"enabled": true,
 					"contentType": 0
-				},
-				"parentName": "Tabe57891c7TabLabelGridLayout66a85f76",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "ErpNameadddcef7-44d6-45fd-923f-419597f1c6b4",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 0,
-						"layoutName": "Tabe57891c7TabLabelGridLayout66a85f76"
-					},
-					"bindTo": "ErpName",
-					"enabled": true
 				},
 				"parentName": "Tabe57891c7TabLabelGridLayout66a85f76",
 				"propertyName": "items",

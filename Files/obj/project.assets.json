@@ -183,13 +183,13 @@
     "/root/.nuget/packages/": {}
   },
   "project": {
-    "version": "7.18.5.1501",
+    "version": "7.18.2.1235",
     "restore": {
-      "projectUniqueName": "/root/creatio/Terrasoft.Configuration/Pkg/ERP/Files/ERP.csproj",
-      "projectName": "ERP",
-      "projectPath": "/root/creatio/Terrasoft.Configuration/Pkg/ERP/Files/ERP.csproj",
+      "projectUniqueName": "/creatio/Terrasoft.Configuration/Pkg/SLERP/Files/SLERP.csproj",
+      "projectName": "SLERP",
+      "projectPath": "/creatio/Terrasoft.Configuration/Pkg/SLERP/Files/SLERP.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/root/creatio/Terrasoft.Configuration/Pkg/ERP/Files/obj/",
+      "outputPath": "/creatio/Terrasoft.Configuration/Pkg/SLERP/Files/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/root/.nuget/NuGet/NuGet.Config"
@@ -231,7 +231,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.419/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.426/RuntimeIdentifierGraph.json"
       }
     }
   }

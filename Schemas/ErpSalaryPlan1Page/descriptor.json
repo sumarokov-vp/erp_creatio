@@ -8,7 +8,5 @@
       "Name": "BaseModulePageV2"
     },
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "Edit page: \"Salary plan\"",
-    "DependsOn": []
+    "Caption": "Edit page: \"Salary plan\""
   }
-}

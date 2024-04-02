@@ -1,6 +1,7 @@
-CREATE OR REPLACE FUNCTION "erp_receipt_before" ()
-    RETURNS TRIGGER
-    AS $$
+CREATE OR REPLACE FUNCTION public.erp_receipt_before()
+ RETURNS trigger
+ LANGUAGE plpgsql
+AS $function$
 DECLARE
     new_name TEXT;
     --mutual_record "ErpMu";
@@ -15,7 +16,9 @@ BEGIN
     select erp_receipts_naming (NEW) INTO NEW."ErpName";
 
     -- Totals
-    SELECT erp_receipt_total(NEW."Id") INTO NEW."ErpTotal";
+    IF (NEW."ErpTotal" = 0) THEN
+    	SELECT erp_receipt_total(NEW."Id") INTO NEW."ErpTotal";
+	END IF;
 
     DELETE FROM "public"."ErpMutual"
     WHERE
@@ -28,5 +31,4 @@ BEGIN
 
     RETURN NEW;
 END;
-$$
-LANGUAGE plpgsql;
+$function$

@@ -285,7 +285,7 @@ define("ErpMoney1Page", [], function() {
 					},
 					"bindTo": "ErpProfitSection",
 					"enabled": true,
-					"contentType": 5
+					"contentType": 3
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",

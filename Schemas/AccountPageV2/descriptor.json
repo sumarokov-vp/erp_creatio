@@ -9,7 +9,5 @@
     },
     "ExtendParent": true,
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "Account edit page",
-    "DependsOn": []
+    "Caption": "Account edit page"
   }
-}

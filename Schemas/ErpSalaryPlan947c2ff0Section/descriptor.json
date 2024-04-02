@@ -8,7 +8,5 @@
       "Name": "BaseSectionV2"
     },
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "Section schema: \"Salary plan\"",
-    "DependsOn": []
+    "Caption": "Section schema: \"Salary plan\""
   }
-}

@@ -1,4 +1,4 @@
-define("ErpCurrencyRates1Page", [], function() {
+define("ErpCurrencyRates1Page", [],  function() {
 	return {
 		entitySchemaName: "ErpCurrencyRates",
 		attributes: {},

@@ -21,7 +21,7 @@ BEGIN
         );
         
         PERFORM erp_profit_registration(
-            amount => NEW."ErpTotal",
+            amount => NEW."ErpTotal" * -1,
             contractor_id => NEW."ErpContractorId",
             currency_id => NEW."ErpCurrencyId",
             dt => NEW."ErpDate",

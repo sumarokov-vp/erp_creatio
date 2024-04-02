@@ -2,13 +2,11 @@
   "Descriptor": {
     "UId": "a092a43f-3a63-4bfe-bdb6-018cbeddd707",
     "Name": "ErpEmployeeInSalaryPlan",
-    "ModifiedOnUtc": "\/Date(1711053902000)\/",
+    "ModifiedOnUtc": "\/Date(1711053901000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Employee in salary plan",
-    "DependsOn": []
+    "Caption": "Employee in salary plan"
   }
-}
