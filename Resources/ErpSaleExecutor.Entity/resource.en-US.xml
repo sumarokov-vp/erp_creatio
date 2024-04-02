@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Erp sale executor" />
+			<Item Name="Columns.ErpAddedBySalaryPlan.Caption" Value="Added by salary plan" />
 			<Item Name="Columns.ErpAmount.Caption" Value="Amount" />
 			<Item Name="Columns.ErpContact.Caption" Value="Contact" />
 			<Item Name="Columns.ErpCurrency.Caption" Value="Currency" />

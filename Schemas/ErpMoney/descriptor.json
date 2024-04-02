@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "f37db32e-1bb4-4439-9a30-136a772ce062",
     "Name": "ErpMoney",
-    "ModifiedOnUtc": "\/Date(1653729576000)\/",
+    "ModifiedOnUtc": "\/Date(1712045038000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"

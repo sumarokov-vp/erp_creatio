@@ -139,7 +139,24 @@
   "E17": "ErpStockId",
   "E18": "ErpStockName"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","71a0e4ed-5a57-4d3f-8714-1a7d1d6704ae","6b199dc9-ab18-41f6-9fc8-f85f4d3e0e56","7980a4b2-b6dd-42d3-b040-bab99a4ace83","d2339dae-f770-4ed8-9994-bceab98d329b","6a89197a-9471-4887-be0b-6b88bc10ff8d","800b87c5-d120-41e5-ab57-9d98ff48e99f","d53264db-60e8-460c-8307-f186491eec39","e48eb5f8-88db-4ed9-8afd-d0bdc86d5697","f401b726-f542-1597-74ea-b32c7cd4e433","6f0435fd-0376-423d-db98-103640444e1e","2ac1887e-885d-ef32-eb11-773031b01bc3","524cc71d-0335-4e5a-8e9a-18e5c4776089"]
++ MetaData.Schema.D2 {
+  "UId": "44f8803f-7c1c-41b1-bd54-bf97e4a79de5",
+  "A2": "ErpSalaryPlan",
+  "A3": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A4": "7f161ea4-773a-4165-9173-be3193659e58",
+  "A5": "44021985-c5db-4baf-bdf6-18addce79ec5",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "54fd521e-ef53-4a68-aefc-6d0a36d6f674",
+  "E6": true,
+  "E20": true,
+  "E12": {
+    "FB1": 2,
+    "FB2": "ErpDefaultSalaryPlan"
+  },
+  "E17": "ErpSalaryPlanId",
+  "E18": "ErpSalaryPlanName"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","71a0e4ed-5a57-4d3f-8714-1a7d1d6704ae","6b199dc9-ab18-41f6-9fc8-f85f4d3e0e56","7980a4b2-b6dd-42d3-b040-bab99a4ace83","d2339dae-f770-4ed8-9994-bceab98d329b","6a89197a-9471-4887-be0b-6b88bc10ff8d","800b87c5-d120-41e5-ab57-9d98ff48e99f","d53264db-60e8-460c-8307-f186491eec39","e48eb5f8-88db-4ed9-8afd-d0bdc86d5697","f401b726-f542-1597-74ea-b32c7cd4e433","6f0435fd-0376-423d-db98-103640444e1e","2ac1887e-885d-ef32-eb11-773031b01bc3","524cc71d-0335-4e5a-8e9a-18e5c4776089","44f8803f-7c1c-41b1-bd54-bf97e4a79de5"]
 = MetaData.Schema.D20.A2 "ErpSalesEvents"
 - MetaData.Schema.EG1.B6
 - MetaData.Schema.EG1.BK29
