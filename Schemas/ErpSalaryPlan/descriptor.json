@@ -8,5 +8,7 @@
       "Name": "BaseEntity"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Salary plan"
+    "Caption": "Salary plan",
+    "DependsOn": []
   }
+}

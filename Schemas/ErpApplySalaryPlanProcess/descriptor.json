@@ -4,5 +4,7 @@
     "Name": "ErpApplySalaryPlanProcess",
     "ModifiedOnUtc": "\/Date(1711060589000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Apply salary plan"
+    "Caption": "Apply salary plan",
+    "DependsOn": []
   }
+}

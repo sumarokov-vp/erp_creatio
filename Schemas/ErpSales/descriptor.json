@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "7f161ea4-773a-4165-9173-be3193659e58",
     "Name": "ErpSales",
-    "ModifiedOnUtc": "\/Date(1711059206000)\/",
+    "ModifiedOnUtc": "\/Date(1711059207000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"
@@ -11,3 +11,4 @@
     "Caption": "ERP sales",
     "DependsOn": []
   }
+}
