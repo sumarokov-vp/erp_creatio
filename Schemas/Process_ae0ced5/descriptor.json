@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "a129d110-d713-4ce1-850c-f446dd5cfea2",
+    "Name": "Process_ae0ced5",
+    "ModifiedOnUtc": "\/Date(1692902191000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Create expenses product in receipt",
+    "DependsOn": []
+  }
+}

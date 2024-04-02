@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "8eee0136-a578-42a4-ac1a-627677fc17a4",
+    "Name": "Service_bc607a7",
+    "ModifiedOnUtc": "\/Date(1712042212000)\/",
+    "ManagerName": "ServiceSchemaManager",
+    "Caption": "https://rest.coinapi.io",
+    "DependsOn": []
+  }
+}

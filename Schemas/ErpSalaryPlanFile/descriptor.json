@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "b48c0364-6b64-4fef-9aed-6ff769048500",
+    "Name": "ErpSalaryPlanFile",
+    "ModifiedOnUtc": "\/Date(1711052797000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Salary plan attachment",
+    "DependsOn": []
+  }
+}

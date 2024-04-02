@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "be5fae96-7d4e-467c-a2a8-acce59987d00",
+    "Name": "Schemad2d255d7Page",
+    "ModifiedOnUtc": "\/Date(1711054028000)\/",
+    "Parent": {
+      "UId": "d3cc497c-f286-4f13-99c1-751c468733c0",
+      "Name": "BasePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Employee in salary plan",
+    "DependsOn": []
+  }
+}

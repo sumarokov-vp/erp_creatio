@@ -1,7 +1,7 @@
 = MetaData.Schema.UId "f37db32e-1bb4-4439-9a30-136a772ce062"
 = MetaData.Schema.A2 "ErpMoney"
 = MetaData.Schema.A5 "feafd31b-fe52-48ae-95ae-9a5b451df099"
-= MetaData.Schema.B6 "ab45cee9-ba91-f8c9-4af3-755c92bfee24"
+= MetaData.Schema.B6 "6e76f5fd-ca72-2743-c1d3-9f957f0407cf"
 = MetaData.Schema.B8 "7.18.5.1501"
 = MetaData.Schema.EG1.UId "9815ef9a-07c0-4992-9844-68d773cab0b0"
 = MetaData.Schema.EG1.A2 "ErpMoneyEventsProcess"
@@ -65,7 +65,7 @@
   "A3": "f37db32e-1bb4-4439-9a30-136a772ce062",
   "A4": "f37db32e-1bb4-4439-9a30-136a772ce062",
   "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
-  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+  "S2": "a4aaf398-3531-4a0d-9d75-a587f5b5b59e"
 }
 + MetaData.Schema.D2 {
   "UId": "d189d00b-0184-4401-bf47-b196659f8b9a",
@@ -221,6 +221,7 @@
   "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
   "S4": "600b9d53-a88d-4e57-bc6d-eff1267ca8ca",
   "E6": true,
+  "E20": true,
   "E17": "ErpProfitSectionId",
   "E18": "ErpProfitSectionName"
 }

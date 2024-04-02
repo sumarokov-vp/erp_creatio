@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "36fbcffe-73c7-4e88-a100-e25e2bb5a4e1",
     "Name": "ErpOpenExchangeRatesService",
-    "ModifiedOnUtc": "\/Date(1652639165000)\/",
+    "ModifiedOnUtc": "\/Date(1692897591000)\/",
     "ManagerName": "ServiceSchemaManager",
     "Caption": "https://openexchangerates.org",
     "DependsOn": []

@@ -1,0 +1,26 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "945cc8e5-3f58-4cbb-9b2d-99a37f15e8fc"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 58
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "38e57af0-844e-4ec6-ab59-b31d6a743f2e",
+          "DisplayValue": "ERP"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "a0b42568-5329-4ea6-be79-010215aa709c",
+          "DisplayValue": "Salary plan"
+        }
+      ]
+    }
+  ]
+}

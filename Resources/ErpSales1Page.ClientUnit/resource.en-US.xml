@@ -8,7 +8,9 @@
 			<Item Name="LocalizableStrings.ErpSchema458cc01cDetail9f6c1aefDetailCaptionOnPage.Value" Value="Erp sale executor" />
 			<Item Name="LocalizableStrings.ErpSchemab80ca827Detaild015619dDetailCaptionOnPage.Value" Value="Mutual settlements" />
 			<Item Name="LocalizableStrings.ErpSchemad9a551a2Detail61d8f4a7DetailCaptionOnPage.Value" Value="ERP profit" />
+			<Item Name="LocalizableStrings.Tab2f72a953TabLabelTabCaption.Value" Value="Invoice" />
 			<Item Name="LocalizableStrings.Tabdd6a9c55TabLabelTabCaption.Value" Value="Registration" />
+			<Item Name="LocalizableStrings.Tabf7ea2e81TabLabelGroupb4391531GroupCaption.Value" Value="Salary plan" />
 			<Item Name="LocalizableStrings.Tabf7ea2e81TabLabelTabCaption.Value" Value="Main" />
 		</Items>
 	</Group>

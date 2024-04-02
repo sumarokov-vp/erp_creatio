@@ -3,10 +3,12 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Erp sale executor" />
+			<Item Name="Columns.ErpAddedBySalaryPlan.Caption" Value="Added by salary plan" />
 			<Item Name="Columns.ErpAmount.Caption" Value="Amount" />
 			<Item Name="Columns.ErpContact.Caption" Value="Contact" />
 			<Item Name="Columns.ErpCurrency.Caption" Value="Currency" />
 			<Item Name="Columns.ErpName.Caption" Value="Name" />
+			<Item Name="Columns.ErpPercent.Caption" Value="Percent" />
 			<Item Name="Columns.ErpRegistered.Caption" Value="Registered" />
 			<Item Name="Columns.ErpSale.Caption" Value="ERP sales" />
 		</Items>

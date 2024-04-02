@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "b9484837-1900-441d-88a6-fc545ece9277",
+    "Name": "ErpApplySalaryPlanProcess",
+    "ModifiedOnUtc": "\/Date(1711060589000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Apply salary plan",
+    "DependsOn": []
+  }
+}

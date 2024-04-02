@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "8358ff22-bfa7-4d8d-87ee-64787650b278",
+    "Name": "ErpSalaryPlanInTag",
+    "ModifiedOnUtc": "\/Date(1711052887000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Salary plan section record tag",
+    "DependsOn": []
+  }
+}
