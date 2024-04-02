@@ -2,41 +2,56 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="BaseElements.AddDataUserTask1.Caption" Value="RUB USD" />
-			<Item Name="BaseElements.AddDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
-			<Item Name="BaseElements.AddDataUserTask1.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
-			<Item Name="BaseElements.AddDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
-			<Item Name="BaseElements.AddDataUserTask1.Parameters.EntitySchemaId.Caption" Value="Object" />
-			<Item Name="BaseElements.AddDataUserTask1.Parameters.FilterEntitySchemaId.Caption" Value="Object" />
-			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordAddMode.Caption" Value="Record adding mode" />
-			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Caption" Value="Set column values" />
-			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordId.Caption" Value="Created record Id" />
-			<Item Name="BaseElements.AddDataUserTask2.Caption" Value="KZT USD" />
-			<Item Name="BaseElements.AddDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
-			<Item Name="BaseElements.AddDataUserTask2.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
-			<Item Name="BaseElements.AddDataUserTask2.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
-			<Item Name="BaseElements.AddDataUserTask2.Parameters.EntitySchemaId.Caption" Value="Object" />
-			<Item Name="BaseElements.AddDataUserTask2.Parameters.FilterEntitySchemaId.Caption" Value="Object" />
-			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordAddMode.Caption" Value="Record adding mode" />
-			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordDefValues.Caption" Value="Set column values" />
-			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordId.Caption" Value="Created record Id" />
-			<Item Name="BaseElements.AddDataUserTask3.Caption" Value="KZT RUB" />
-			<Item Name="BaseElements.AddDataUserTask3.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
-			<Item Name="BaseElements.AddDataUserTask3.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
-			<Item Name="BaseElements.AddDataUserTask3.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
-			<Item Name="BaseElements.AddDataUserTask3.Parameters.EntitySchemaId.Caption" Value="Object" />
-			<Item Name="BaseElements.AddDataUserTask3.Parameters.FilterEntitySchemaId.Caption" Value="Object" />
-			<Item Name="BaseElements.AddDataUserTask3.Parameters.RecordAddMode.Caption" Value="Record adding mode" />
-			<Item Name="BaseElements.AddDataUserTask3.Parameters.RecordDefValues.Caption" Value="Set column values" />
-			<Item Name="BaseElements.AddDataUserTask3.Parameters.RecordId.Caption" Value="Created record Id" />
-			<Item Name="BaseElements.WebService1.Caption" Value="https://openexchangerates.org 1" />
-			<Item Name="BaseElements.WebService1.Parameters.ErpAppid_In.Caption" Value="App_id" />
-			<Item Name="BaseElements.WebService1.Parameters.ErpBase_Out.Caption" Value="Base" />
-			<Item Name="BaseElements.WebService1.Parameters.ErpRub_Out.Caption" Value="RUB" />
-			<Item Name="BaseElements.WebService1.Parameters.RequestBody.Caption" Value="Request body" />
-			<Item Name="BaseElements.WebService1.Parameters.Response.Caption" Value="Response body" />
-			<Item Name="BaseElements.WebService1.Parameters.StatusCode.Caption" Value="Http status code" />
-			<Item Name="BaseElements.WebService1.Parameters.Success.Caption" Value="Success" />
+			<Item Name="BaseElements.SubProcess2.Caption" Value="Set kzt" />
+			<Item Name="BaseElements.SubProcess2.Parameters.Currency1.Caption" Value="Currency 1" />
+			<Item Name="BaseElements.SubProcess2.Parameters.Currency1.DisplayValue" Value="[#Lookup.Currency.Tenge.f0246723-a61a-4616-8bb4-450824944987#]" />
+			<Item Name="BaseElements.SubProcess2.Parameters.Rate.Caption" Value="Rate" />
+			<Item Name="BaseElements.SubProcess2.Parameters.Rate.DisplayValue" Value="[#KZT.Rate#]" />
+			<Item Name="BaseElements.SubProcess3.Caption" Value="Set rub" />
+			<Item Name="BaseElements.SubProcess3.Parameters.Currency1.Caption" Value="Currency 1" />
+			<Item Name="BaseElements.SubProcess3.Parameters.Currency1.DisplayValue" Value="[#Lookup.Currency.Ruble.5fb76920-53e6-df11-971b-001d60e938c6#]" />
+			<Item Name="BaseElements.SubProcess3.Parameters.Rate.Caption" Value="Rate" />
+			<Item Name="BaseElements.SubProcess3.Parameters.Rate.DisplayValue" Value="[#RUB.Rate#]" />
+			<Item Name="BaseElements.SubProcess4.Caption" Value="Set trx" />
+			<Item Name="BaseElements.SubProcess4.Parameters.Currency1.Caption" Value="Currency 1" />
+			<Item Name="BaseElements.SubProcess4.Parameters.Currency1.DisplayValue" Value="[#Lookup.Currency.Tron.ac3ac37b-c815-4094-8b64-0f641eb0fac8#]" />
+			<Item Name="BaseElements.SubProcess4.Parameters.Rate.Caption" Value="Rate" />
+			<Item Name="BaseElements.SubProcess4.Parameters.Rate.DisplayValue" Value="[#TRX.Rate#]" />
+			<Item Name="BaseElements.SubProcess5.Caption" Value="Set bnb" />
+			<Item Name="BaseElements.SubProcess5.Parameters.Currency1.Caption" Value="Currency 1" />
+			<Item Name="BaseElements.SubProcess5.Parameters.Currency1.DisplayValue" Value="[#Lookup.Currency.BNB.f1ece8f0-fa68-488c-b185-3aecb30256d3#]" />
+			<Item Name="BaseElements.SubProcess5.Parameters.Rate.Caption" Value="Rate" />
+			<Item Name="BaseElements.SubProcess5.Parameters.Rate.DisplayValue" Value="[#BNB.Rate#]" />
+			<Item Name="BaseElements.WebService2.Caption" Value="KZT" />
+			<Item Name="BaseElements.WebService2.Parameters.Accept_In.Caption" Value="Accept" />
+			<Item Name="BaseElements.WebService2.Parameters.Rate_Out.Caption" Value="Rate" />
+			<Item Name="BaseElements.WebService2.Parameters.RequestBody.Caption" Value="Request body" />
+			<Item Name="BaseElements.WebService2.Parameters.Response.Caption" Value="Response body" />
+			<Item Name="BaseElements.WebService2.Parameters.StatusCode.Caption" Value="Http status code" />
+			<Item Name="BaseElements.WebService2.Parameters.Success.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService3.Caption" Value="RUB" />
+			<Item Name="BaseElements.WebService3.Parameters.Accept_In.Caption" Value="Accept" />
+			<Item Name="BaseElements.WebService3.Parameters.Apikey_In.Caption" Value="X-CoinAPI-Key" />
+			<Item Name="BaseElements.WebService3.Parameters.Rate_Out.Caption" Value="Rate" />
+			<Item Name="BaseElements.WebService3.Parameters.RequestBody.Caption" Value="Request body" />
+			<Item Name="BaseElements.WebService3.Parameters.Response.Caption" Value="Response body" />
+			<Item Name="BaseElements.WebService3.Parameters.StatusCode.Caption" Value="Http status code" />
+			<Item Name="BaseElements.WebService3.Parameters.Success.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService4.Caption" Value="TRX" />
+			<Item Name="BaseElements.WebService4.Parameters.Accept_In.Caption" Value="Accept" />
+			<Item Name="BaseElements.WebService4.Parameters.Apikey_In.Caption" Value="X-CoinAPI-Key" />
+			<Item Name="BaseElements.WebService4.Parameters.Rate_Out.Caption" Value="Rate" />
+			<Item Name="BaseElements.WebService4.Parameters.RequestBody.Caption" Value="Request body" />
+			<Item Name="BaseElements.WebService4.Parameters.Response.Caption" Value="Response body" />
+			<Item Name="BaseElements.WebService4.Parameters.StatusCode.Caption" Value="Http status code" />
+			<Item Name="BaseElements.WebService4.Parameters.Success.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService5.Caption" Value="BNB" />
+			<Item Name="BaseElements.WebService5.Parameters.Accept_In.Caption" Value="Accept" />
+			<Item Name="BaseElements.WebService5.Parameters.Rate_Out.Caption" Value="Rate" />
+			<Item Name="BaseElements.WebService5.Parameters.RequestBody.Caption" Value="Request body" />
+			<Item Name="BaseElements.WebService5.Parameters.Response.Caption" Value="Response body" />
+			<Item Name="BaseElements.WebService5.Parameters.StatusCode.Caption" Value="Http status code" />
+			<Item Name="BaseElements.WebService5.Parameters.Success.Caption" Value="Success" />
 			<Item Name="Caption" Value="Get currency rates" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />

@@ -97,7 +97,20 @@
     "FB2": "0"
   }
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","18bc7851-4430-479e-a82d-e03dd003216e","305104b3-8964-43e8-8ae4-284741e04968","e070f1ec-c37f-412c-8f2a-0f9519e2d325","f87bf386-fd5e-4861-9c86-8d77b6596f74","92ffab80-c99d-4b02-bd75-cb6099ae924e","4c3c4ff0-4e94-4761-9b57-9d062908bbc8","49baf0c8-bc0c-7cfd-219e-7d9304f5a4cb"]
++ MetaData.Schema.D2 {
+  "UId": "2ced4c68-73e3-8d6e-6bc6-6952ad3f0cd2",
+  "A2": "ErpAddedBySalaryPlan",
+  "A3": "6d894dfa-59f8-47f0-a004-a6a1364a84ba",
+  "A4": "6d894dfa-59f8-47f0-a004-a6a1364a84ba",
+  "A5": "44021985-c5db-4baf-bdf6-18addce79ec5",
+  "S2": "90b65bf8-0ffc-4141-8779-2420877af907",
+  "E5": false,
+  "E12": {
+    "FB1": 1,
+    "FB2": "False"
+  }
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","18bc7851-4430-479e-a82d-e03dd003216e","305104b3-8964-43e8-8ae4-284741e04968","e070f1ec-c37f-412c-8f2a-0f9519e2d325","f87bf386-fd5e-4861-9c86-8d77b6596f74","92ffab80-c99d-4b02-bd75-cb6099ae924e","4c3c4ff0-4e94-4761-9b57-9d062908bbc8","49baf0c8-bc0c-7cfd-219e-7d9304f5a4cb","2ced4c68-73e3-8d6e-6bc6-6952ad3f0cd2"]
 = MetaData.Schema.D20.A2 "ErpSaleExecutorEvents"
 - MetaData.Schema.EG1.B6
 - MetaData.Schema.EG1.BK29

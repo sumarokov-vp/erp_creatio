@@ -1,0 +1,9 @@
+﻿{
+  "Descriptor": {
+    "UId": "cfb46b34-71e7-45e2-b9a5-abb2fe648839",
+    "Name": "ErpSetCurrencyRate",
+    "ModifiedOnUtc": "\/Date(1712041142000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Set currency rate"
+  }
+}

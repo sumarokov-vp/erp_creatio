@@ -4,6 +4,31 @@
       "Row": [
         {
           "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "21126da9-859b-41cb-ab70-e17b148d8caa"
+        },
+        {
+          "SchemaColumnUId": "4420cc5f-5a43-490b-b583-f8572ac29dce",
+          "Value": "0557e2d1-7b31-475d-bcb4-f9fc946777de",
+          "DisplayValue": "ERP sales"
+        },
+        {
+          "SchemaColumnUId": "a9f680eb-bc67-4aac-919e-0ad9f1000690",
+          "Value": "b9484837-1900-441d-88a6-fc545ece9277"
+        },
+        {
+          "SchemaColumnUId": "aadb966f-e2f2-4239-b56f-51ba5fdf0533",
+          "Value": 1
+        },
+        {
+          "SchemaColumnUId": "18fd508a-8e32-454d-bd8a-82a9d4028ace",
+          "Value": "cbc68995-8da4-4fa9-bf08-109f11c492fb"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
           "Value": "fd4bcafd-0982-47fc-9106-97dd14186129"
         },
         {
@@ -22,6 +47,31 @@
         {
           "SchemaColumnUId": "18fd508a-8e32-454d-bd8a-82a9d4028ace",
           "Value": "84764d3d-a8cb-47ab-ad86-a536bfc1e5e2"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "08a88538-d839-4151-9b0d-d64742bf5efe"
+        },
+        {
+          "SchemaColumnUId": "4420cc5f-5a43-490b-b583-f8572ac29dce",
+          "Value": "e33d70e9-e54b-4b15-985f-90131704e021",
+          "DisplayValue": "Receipts (SLReceipts)"
+        },
+        {
+          "SchemaColumnUId": "a9f680eb-bc67-4aac-919e-0ad9f1000690",
+          "Value": "e272d452-f0a0-4b8c-9256-5a029105e7be"
+        },
+        {
+          "SchemaColumnUId": "aadb966f-e2f2-4239-b56f-51ba5fdf0533",
+          "Value": 1
+        },
+        {
+          "SchemaColumnUId": "18fd508a-8e32-454d-bd8a-82a9d4028ace",
+          "Value": "ecedb6ca-a1a1-45d0-95a4-bb2a32bed0f3"
         }
       ]
     }

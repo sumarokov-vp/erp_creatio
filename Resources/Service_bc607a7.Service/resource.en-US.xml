@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="https://rest.coinapi.io" />
+			<Item Name="ServiceMethods.Method1.Caption" Value="/v1/exchangerate/USD/KZT" />
+			<Item Name="ServiceMethods.Method1.Request.Parameters.Accept.Caption" Value="Accept" />
+			<Item Name="ServiceMethods.Method1.Request.Parameters.Apikey.Caption" Value="X-CoinAPI-Key" />
+			<Item Name="ServiceMethods.Method1.Response.Parameters.Rate.Caption" Value="Rate" />
+			<Item Name="ServiceMethods.Method2.Caption" Value="/v1/exchangerate/USD/RUB" />
+			<Item Name="ServiceMethods.Method2.Request.Parameters.Accept.Caption" Value="Accept" />
+			<Item Name="ServiceMethods.Method2.Request.Parameters.Apikey.Caption" Value="X-CoinAPI-Key" />
+			<Item Name="ServiceMethods.Method2.Response.Parameters.Rate.Caption" Value="Rate" />
+			<Item Name="ServiceMethods.Method3.Caption" Value="/v1/exchangerate/USD/TRX" />
+			<Item Name="ServiceMethods.Method3.Request.Parameters.Accept.Caption" Value="Accept" />
+			<Item Name="ServiceMethods.Method3.Request.Parameters.Apikey.Caption" Value="X-CoinAPI-Key" />
+			<Item Name="ServiceMethods.Method3.Response.Parameters.Rate.Caption" Value="Rate" />
+			<Item Name="ServiceMethods.Method4.Caption" Value="/v1/exchangerate/USD/BNB" />
+			<Item Name="ServiceMethods.Method4.Request.Parameters.Accept.Caption" Value="Accept" />
+			<Item Name="ServiceMethods.Method4.Request.Parameters.Apikey.Caption" Value="X-CoinAPI-Key" />
+			<Item Name="ServiceMethods.Method4.Response.Parameters.Rate.Caption" Value="Rate" />
+		</Items>
+	</Group>
+</Resources>

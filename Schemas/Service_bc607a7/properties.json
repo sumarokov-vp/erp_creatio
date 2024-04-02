@@ -1,0 +1,7 @@
+﻿{
+  "Properties": {
+    "BaseUri": "https://rest.coinapi.io",
+    "CreatedInVersion": "7.18.2.1235",
+    "Type": "Rest"
+  }
+}

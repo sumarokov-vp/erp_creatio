@@ -1,7 +1,7 @@
 = MetaData.Schema.UId "91763ee4-9512-4b55-8805-b73454636446"
 = MetaData.Schema.A2 "ErpFund"
 = MetaData.Schema.A5 "feafd31b-fe52-48ae-95ae-9a5b451df099"
-= MetaData.Schema.B6 "ab45cee9-ba91-f8c9-4af3-755c92bfee24"
+= MetaData.Schema.B6 "6e76f5fd-ca72-2743-c1d3-9f957f0407cf"
 = MetaData.Schema.B8 "7.18.5.1501"
 = MetaData.Schema.EG1.UId "b48307fb-9115-4ea7-97ad-00218e3bd726"
 = MetaData.Schema.EG1.A2 "ErpFundEventsProcess"
@@ -49,7 +49,7 @@
   "A3": "91763ee4-9512-4b55-8805-b73454636446",
   "A4": "91763ee4-9512-4b55-8805-b73454636446",
   "A5": "feafd31b-fe52-48ae-95ae-9a5b451df099",
-  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+  "S2": "a4aaf398-3531-4a0d-9d75-a587f5b5b59e"
 }
 + MetaData.Schema.D2 {
   "UId": "a25d57cd-4cf5-4a70-b799-ae54eac1cd4e",
@@ -88,11 +88,19 @@
   "E18": "ErpMoneyErpName"
 }
 ~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","84186cc8-4bcd-4c80-86d8-24d9c4b8944c","7b02ce80-edbd-4e88-bc56-7f514449ba11","aa7ebe8a-5c61-49e9-94ae-3bead4bb4505","ee5f9ea9-36fc-4411-bdbf-4bf1f15d3b00","a25d57cd-4cf5-4a70-b799-ae54eac1cd4e","6ca5c6ab-25ba-4a24-92ea-18a421e01ac1","20242a84-bf69-45f7-9556-35ac57f0d461"]
+= MetaData.Schema.D20.A2 "ErpFundEvents"
 - MetaData.Schema.EG1.B6
 - MetaData.Schema.EG1.BK29
 - MetaData.Schema.EG1.BK30
 - MetaData.Schema.D1
-- MetaData.Schema.D20
+- MetaData.Schema.D20.A5
+- MetaData.Schema.D20.FA4
+- MetaData.Schema.D20.FA5
+- MetaData.Schema.D20.FA6
+- MetaData.Schema.D20.FA7
+- MetaData.Schema.D20.FA11
+- MetaData.Schema.D20.FA12
+- MetaData.Schema.D20.FA15
 + MetaData.Schema.B7 false
 + MetaData.Schema.D2.["ae0e45ca-c495-4fe7-a39d-3ab7278e1617"].E16 false
 + MetaData.Schema.D2.["e80190a5-03b2-4095-90f7-a193a960adee"].E16 false

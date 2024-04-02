@@ -1,0 +1,260 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ServiceSchemaManager",
+      "UId": "8eee0136-a578-42a4-ac1a-627677fc17a4",
+      "A2": "Service_bc607a7",
+      "A5": "44021985-c5db-4baf-bdf6-18addce79ec5",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "6e76f5fd-ca72-2743-c1d3-9f957f0407cf",
+      "B8": "7.18.2.1235",
+      "IQ1": "https://rest.coinapi.io",
+      "IQ2": 1,
+      "IQ7": [],
+      "IQ4": [
+        {
+          "UId": "665bbc2b-76a5-4a4a-b05f-ed9d9e5187e7",
+          "A2": "Method1",
+          "A3": "8eee0136-a578-42a4-ac1a-627677fc17a4",
+          "A4": "8eee0136-a578-42a4-ac1a-627677fc17a4",
+          "IR3": 5000,
+          "IR5": "null",
+          "IR1": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "be19012c-4aa8-4f56-b73d-0c722434bbdf",
+                "A2": "Accept",
+                "IU1": "Accept",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 4,
+                "IU5": {
+                  "IV1": "application/json",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "f6c6ca09-f146-4dbf-aa4c-1cfaee852226",
+                "A2": "Apikey",
+                "IU1": "X-CoinAPI-Key",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 4,
+                "IU5": {
+                  "IV1": "CF0AEF65-C746-4225-9035-AAE74D530494",
+                  "IV2": 1
+                },
+                "IU6": []
+              }
+            ],
+            "IT2": 1,
+            "IT1": "/v1/exchangerate/USD/KZT"
+          },
+          "IR2": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "64ea4873-d4a6-40d6-ae76-5cf601e7971a",
+                "A2": "Rate",
+                "IU1": "$.rate",
+                "IU2": "Float",
+                "IU7": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null",
+                  "IV2": 1
+                },
+                "IU6": []
+              }
+            ]
+          }
+        },
+        {
+          "UId": "92db3202-063b-43a8-b7b1-769be559f58b",
+          "A2": "Method2",
+          "A3": "8eee0136-a578-42a4-ac1a-627677fc17a4",
+          "A4": "8eee0136-a578-42a4-ac1a-627677fc17a4",
+          "IR3": 5000,
+          "IR5": "null",
+          "IR1": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "be19012c-4aa8-4f56-b73d-0c722434bbdf",
+                "A2": "Accept",
+                "IU1": "Accept",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 4,
+                "IU5": {
+                  "IV1": "application/json",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "f6c6ca09-f146-4dbf-aa4c-1cfaee852226",
+                "A2": "Apikey",
+                "IU1": "X-CoinAPI-Key",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 4,
+                "IU5": {
+                  "IV1": "CF0AEF65-C746-4225-9035-AAE74D530494",
+                  "IV2": 1
+                },
+                "IU6": []
+              }
+            ],
+            "IT2": 1,
+            "IT1": "/v1/exchangerate/USD/RUB"
+          },
+          "IR2": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "64ea4873-d4a6-40d6-ae76-5cf601e7971a",
+                "A2": "Rate",
+                "IU1": "$.rate",
+                "IU2": "Float",
+                "IU7": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null",
+                  "IV2": 1
+                },
+                "IU6": []
+              }
+            ]
+          }
+        },
+        {
+          "UId": "b9bb7a5e-b7a3-4734-a66f-d75c41b49090",
+          "A2": "Method3",
+          "A3": "8eee0136-a578-42a4-ac1a-627677fc17a4",
+          "A4": "8eee0136-a578-42a4-ac1a-627677fc17a4",
+          "IR3": 5000,
+          "IR5": "null",
+          "IR1": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "be19012c-4aa8-4f56-b73d-0c722434bbdf",
+                "A2": "Accept",
+                "IU1": "Accept",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 4,
+                "IU5": {
+                  "IV1": "application/json",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "f6c6ca09-f146-4dbf-aa4c-1cfaee852226",
+                "A2": "Apikey",
+                "IU1": "X-CoinAPI-Key",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 4,
+                "IU5": {
+                  "IV1": "CF0AEF65-C746-4225-9035-AAE74D530494",
+                  "IV2": 1
+                },
+                "IU6": []
+              }
+            ],
+            "IT2": 1,
+            "IT1": "/v1/exchangerate/USD/TRX"
+          },
+          "IR2": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "64ea4873-d4a6-40d6-ae76-5cf601e7971a",
+                "A2": "Rate",
+                "IU1": "$.rate",
+                "IU2": "Float",
+                "IU7": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null",
+                  "IV2": 1
+                },
+                "IU6": []
+              }
+            ]
+          }
+        },
+        {
+          "UId": "491add6b-178d-403a-9c11-227fdef70e4e",
+          "A2": "Method4",
+          "A3": "8eee0136-a578-42a4-ac1a-627677fc17a4",
+          "A4": "8eee0136-a578-42a4-ac1a-627677fc17a4",
+          "IR3": 5000,
+          "IR5": "null",
+          "IR1": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "be19012c-4aa8-4f56-b73d-0c722434bbdf",
+                "A2": "Accept",
+                "IU1": "Accept",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 4,
+                "IU5": {
+                  "IV1": "application/json",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "f6c6ca09-f146-4dbf-aa4c-1cfaee852226",
+                "A2": "Apikey",
+                "IU1": "X-CoinAPI-Key",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 4,
+                "IU5": {
+                  "IV1": "CF0AEF65-C746-4225-9035-AAE74D530494",
+                  "IV2": 1
+                },
+                "IU6": []
+              }
+            ],
+            "IT2": 1,
+            "IT1": "/v1/exchangerate/USD/BNB"
+          },
+          "IR2": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "64ea4873-d4a6-40d6-ae76-5cf601e7971a",
+                "A2": "Rate",
+                "IU1": "$.rate",
+                "IU2": "Float",
+                "IU7": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null",
+                  "IV2": 1
+                },
+                "IU6": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
