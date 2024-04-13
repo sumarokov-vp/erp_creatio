@@ -299,7 +299,7 @@ define("ErpSales1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "ErpSalaryPlane861817f-1a82-4e53-b34a-8c873ac026cf",
+				"name": "ErpSalaryPlan6faa8c2d-765d-4292-b354-a892d1f7f8e6",
 				"values": {
 					"layout": {
 						"colSpan": 12,
@@ -308,7 +308,9 @@ define("ErpSales1Page", [], function() {
 						"row": 0,
 						"layoutName": "Tabf7ea2e81TabLabelGridLayout11798e56"
 					},
-					"bindTo": "ErpSalaryPlan"
+					"bindTo": "ErpSalaryPlan",
+					"enabled": true,
+					"contentType": 3
 				},
 				"parentName": "Tabf7ea2e81TabLabelGridLayout11798e56",
 				"propertyName": "items",

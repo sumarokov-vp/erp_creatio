@@ -5,3 +5,5 @@ venv/
 install_db_triggers/__pycache__/
 SLERP.csproj
 stubs/
+*.cache
+Files/obj/Release/
